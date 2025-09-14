@@ -35,7 +35,8 @@
   },
   "name":"goblin game redundancy",
   "resources":[
-    {"id":{"name":"goblin_spawner_1","path":"objects/goblin_spawner_1/goblin_spawner_1.yy",},},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"goblin_controller","path":"objects/goblin_controller/goblin_controller.yy",},},
     {"id":{"name":"obj_gob_corpse","path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},},
     {"id":{"name":"obj_goblin_1","path":"objects/obj_goblin_1/obj_goblin_1.yy",},},
     {"id":{"name":"obj_goblin","path":"objects/obj_goblin/obj_goblin.yy",},},

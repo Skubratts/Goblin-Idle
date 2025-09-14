@@ -21,5 +21,7 @@ var new_goblin = instance_create_layer(xx, yy, "Instances", obj_goblin_1);
 // Add the new goblin to the queue
 ds_queue_enqueue(global.goblin_queue, new_goblin);
 
+gob_count += 1;
+
 //temp time for testing
 alarm[0] = 500; // Reset to another 2 seconds?

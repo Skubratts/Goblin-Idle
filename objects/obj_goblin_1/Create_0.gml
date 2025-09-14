@@ -13,4 +13,3 @@ image_index = 0;
 //spawn timer
 
 alarm[1] = 600; //  2 frames, resets to 5 minutes
-
