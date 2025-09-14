@@ -16,6 +16,7 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"gob_coin_counter","order":4,"path":"objects/gob_coin_counter/gob_coin_counter.yy",},
     {"name":"goblin_controller","order":1,"path":"objects/goblin_controller/goblin_controller.yy",},
     {"name":"obj_gob_corpse","order":2,"path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},
     {"name":"obj_goblin_1","order":3,"path":"objects/obj_goblin_1/obj_goblin_1.yy",},
