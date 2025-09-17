@@ -22,4 +22,4 @@ var new_goblin = instance_create_layer(xx, yy, "Instances", obj_goblin_1);
 ds_queue_enqueue(global.goblin_queue, new_goblin);
 
 //temp time for testing
-alarm[0] = 500; // Reset to another 2 seconds?
+alarm[0] = 1800; // Reset to another 2 seconds?

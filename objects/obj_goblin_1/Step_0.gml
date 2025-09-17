@@ -33,7 +33,6 @@ if (y >= room_height) {
     y = room_height;
 }
  //move in the current direction
-	//no idea if this will actually work
  
  x += lengthdir_x(speed, direction)
  y += lengthdir_y(speed, direction)
@@ -46,7 +45,7 @@ if (direction > 90 && direction < 270) {
 }
 
 // Waddle settings
-var waddle_speed = 0.4;       // How fast the waddle swings
+var waddle_speed = 0.01;       // How fast the waddle swings
 var waddle_range = 12;        // Max angle in degrees (left/right)
 
 // Make the sprite waddle
