@@ -11,3 +11,12 @@ if (is_hovered) {
     scale = 1;
     button_color = c_white;
 }
+
+if (is_hovered && mouse_check_button_pressed(mb_left)) {
+    click_timer = 8; // lasts 8 frames — tweak as needed
+}
+
+// Decrease the timer
+if (click_timer > 0) {
+    click_timer--;
+}
