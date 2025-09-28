@@ -22,6 +22,7 @@
     {"name":"obj_gob_corpse","order":2,"path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},
     {"name":"obj_goblin_1","order":3,"path":"objects/obj_goblin_1/obj_goblin_1.yy",},
     {"name":"obj_open_book","order":6,"path":"objects/obj_open_book/obj_open_book.yy",},
+    {"name":"RoomUI","order":15,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"spr_gob_corpse","order":5,"path":"sprites/spr_gob_corpse/spr_gob_corpse.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},

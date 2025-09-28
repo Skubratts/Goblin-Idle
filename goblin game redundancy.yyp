@@ -44,6 +44,7 @@
     {"id":{"name":"obj_goblin","path":"objects/obj_goblin/obj_goblin.yy",},},
     {"id":{"name":"obj_open_book","path":"objects/obj_open_book/obj_open_book.yy",},},
     {"id":{"name":"room1","path":"rooms/room1/room1.yy",},},
+    {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"script1","path":"scripts/script1/script1.yy",},},
     {"id":{"name":"spr_gob_corpse","path":"sprites/spr_gob_corpse/spr_gob_corpse.yy",},},
     {"id":{"name":"spr_goblist","path":"sprites/spr_goblist/spr_goblist.yy",},},
