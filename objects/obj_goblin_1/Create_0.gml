@@ -16,3 +16,9 @@ alarm[1] = 600; //  2 frames, resets to 5 minutes
 
 
 alarm[0] = 60;
+
+//mouse grab code
+dragging = false;
+offset_x = 0;
+offset_y = 0;
+
