@@ -66,7 +66,6 @@ if (mouse_check_button_pressed(mb_left)) {
         offset_x = x - mouse_x;
         offset_y = y - mouse_y;
 		grab_y = y;
-		falling = false;
 		vspeed = 0;
     }
 }
@@ -74,7 +73,6 @@ if (mouse_check_button_pressed(mb_left)) {
 if (mouse_check_button_released(mb_left)) {
     if (dragging) { 
 		dragging = false;
-		falling = true;
 		vspeed = 0; //reset fall speed
 	}
 }
@@ -83,7 +81,6 @@ if (dragging) {
     x = mouse_x + offset_x;
     y = mouse_y + offset_y;
 }
-
 
 
 

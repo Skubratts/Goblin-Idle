@@ -22,3 +22,4 @@ dragging = false;
 offset_x = 0;
 offset_y = 0;
 
+grab_y = 0;
