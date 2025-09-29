@@ -9,8 +9,8 @@
   "name":"obj_gob_corpse",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Goblins",
+    "path":"folders/Objects/Goblins.yy",
   },
   "parentObjectId":null,
   "persistent":false,

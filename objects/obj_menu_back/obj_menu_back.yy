@@ -11,8 +11,8 @@
   "name":"obj_menu_back",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Gob Book",
+    "path":"folders/Objects/Gob Book.yy",
   },
   "parentObjectId":null,
   "persistent":false,

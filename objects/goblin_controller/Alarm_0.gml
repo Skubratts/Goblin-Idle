@@ -16,7 +16,7 @@ if (ds_queue_size(global.goblin_queue) >= 5) {
     }
 }
 
-var new_goblin = instance_create_layer(xx, yy, "Instances", obj_goblin_1);
+var new_goblin = instance_create_layer(xx, yy, "Instances", obj_goblin_1tier);
 
 // Add the new goblin to the queue
 ds_queue_enqueue(global.goblin_queue, new_goblin);
