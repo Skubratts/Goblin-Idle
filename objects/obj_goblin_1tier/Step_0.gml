@@ -1,6 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (mouse_check_button_released(mb_left) && dragging) {
+	dragging = false;
+	falling = true;
+	vspeed = 0; //reset fall speed
+}
+
+if (falling) {
+	if (y >= grab_y){
+		falling = false;
+		vspeed = 0;
+	}
+	else {
+		vspeed ++;
+	}
+	return;
+}
 
  wander_timer--;
 
@@ -32,12 +48,12 @@ if (y >= room_height) {
     direction = 360 - direction;
     y = room_height;
 }
- //move in the current direction
+
+//Move in the current direction:
+x += lengthdir_x(speed, direction)
+y += lengthdir_y(speed, direction)
  
- x += lengthdir_x(speed, direction)
- y += lengthdir_y(speed, direction)
- 
- // Flip the sprite based on direction
+// Flip the sprite based on direction
 if (direction > 90 && direction < 270) {
     image_xscale = -1; // Face left
 } else {
@@ -65,25 +81,14 @@ if (mouse_check_button_pressed(mb_left)) {
         dragging = true;
         offset_x = x - mouse_x;
         offset_y = y - mouse_y;
-		grab_y = y;
+		grab_y = y;	//keeps track of the y-pos at grab
 		vspeed = 0;
     }
 }
 
-if (mouse_check_button_released(mb_left)) {
-    if (dragging) { 
-		dragging = false;
-		vspeed = 0; //reset fall speed
-	}
-}
-
+//Goblin position follows mouse while dragging
 if (dragging) {
     x = mouse_x + offset_x;
     y = mouse_y + offset_y;
 }
-
-
-
-
-
 

@@ -19,6 +19,7 @@ alarm[0] = 60;
 
 //mouse grab code
 dragging = false;
+falling = false;
 offset_x = 0;
 offset_y = 0;
 
