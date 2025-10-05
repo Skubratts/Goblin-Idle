@@ -54,6 +54,7 @@
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"script1","path":"scripts/script1/script1.yy",},},
     {"id":{"name":"menu_arrow","path":"sprites/menu_arrow/menu_arrow.yy",},},
+    {"id":{"name":"post_it","path":"sprites/post_it/post_it.yy",},},
     {"id":{"name":"spr_gob_corpse","path":"sprites/spr_gob_corpse/spr_gob_corpse.yy",},},
     {"id":{"name":"spr_goblist","path":"sprites/spr_goblist/spr_goblist.yy",},},
     {"id":{"name":"spr_particles","path":"sprites/spr_particles/spr_particles.yy",},},
