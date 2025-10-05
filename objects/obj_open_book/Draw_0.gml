@@ -8,8 +8,8 @@ draw_self();
 
 //draw two gobs per page
 
-draw_sprite(spr_goblist, page_goblins - 1, 713, 450 )
-draw_sprite(spr_goblist, page_goblins, 1211, 450 )
+draw_sprite(spr_goblist, page_goblins - 1, 713, 480 )
+draw_sprite(spr_goblist, page_goblins, 1211, 480 )
 
 
 
