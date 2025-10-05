@@ -3,6 +3,9 @@
 
 draw_self();
 
+
+
+
 //draw two gobs per page
 
 draw_sprite(spr_goblist, page_goblins - 1, 713, 450 )
