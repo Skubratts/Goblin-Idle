@@ -7,7 +7,15 @@ if (mouse_check_button_released(mb_left) && dragging) {
 	vspeed = 0; //reset fall speed
 }
 
+if (!dragging){
+	x += hspeed;
+	if (abs(hspeed) < 0.1){
+		hspeed = 0;
+		wander = true
+	}
+}	
 
+if (wander = false) hspeed *= 0.5
 
 if (falling) {
 	if (y >= grab_y){
