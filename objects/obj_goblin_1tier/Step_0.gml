@@ -9,11 +9,18 @@ if (mouse_check_button_released(mb_left) && dragging) {
 
 if (falling) {
 	if (y >= grab_y){
-		falling = false;
-		vspeed = 0;
+		y = grab_y; // Snap to ground
+		vspeed = -vspeed * 0.6; // Bounce with damping
+
+		// Stop bouncing if speed is too small
+		if (abs(vspeed) < 1) {
+			vspeed = 0;
+			falling = false;
+		}
 	}
 	else {
-		vspeed ++;
+		vspeed += 1; // Gravity
+		y += vspeed; // Apply motion
 	}
 	return;
 }
