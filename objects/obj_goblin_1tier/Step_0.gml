@@ -15,7 +15,7 @@ if (!dragging){
 	}
 }	
 
-if (wander = false) hspeed *= 0.5
+if (wander = false) hspeed *= 0.95
 
 if (falling) {
 	if (y >= grab_y){
@@ -112,9 +112,6 @@ if (mouse_check_button_pressed(mb_left)) {
 if (dragging) {
     x = mouse_x + offset_x;
     y = mouse_y + offset_y;
-}
-
-if (dragging) {
 	wander = false;
     hspeed = x - prev_x; // Calculate horizontal speed
     prev_x = x;          // Update previous position
