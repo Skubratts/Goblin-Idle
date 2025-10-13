@@ -21,6 +21,7 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"cursor","order":11,"path":"objects/cursor/cursor.yy",},
     {"name":"gob_coin_counter","order":4,"path":"objects/gob_coin_counter/gob_coin_counter.yy",},
     {"name":"obj_gob_corpse","order":1,"path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},
     {"name":"obj_goblin_1tier","order":3,"path":"objects/obj_goblin_1tier/obj_goblin_1tier.yy",},
@@ -30,6 +31,7 @@
     {"name":"obj_open_book","order":3,"path":"objects/obj_open_book/obj_open_book.yy",},
     {"name":"obj_post","order":4,"path":"objects/obj_post/obj_post.yy",},
     {"name":"RoomUI","order":15,"path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"leaf_cursor","order":4,"path":"sprites/leaf_cursor/leaf_cursor.yy",},
     {"name":"post_it","order":3,"path":"sprites/post_it/post_it.yy",},
     {"name":"spr_gob_corpse","order":1,"path":"sprites/spr_gob_corpse/spr_gob_corpse.yy",},
     {"name":"Sprite3","order":1,"path":"sprites/Sprite3/Sprite3.yy",},

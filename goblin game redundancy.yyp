@@ -41,6 +41,7 @@
   "name":"goblin game redundancy",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"cursor","path":"objects/cursor/cursor.yy",},},
     {"id":{"name":"gob_coin_counter","path":"objects/gob_coin_counter/gob_coin_counter.yy",},},
     {"id":{"name":"goblin_controller","path":"objects/goblin_controller/goblin_controller.yy",},},
     {"id":{"name":"obj_book_button","path":"objects/obj_book_button/obj_book_button.yy",},},
@@ -54,6 +55,7 @@
     {"id":{"name":"room1","path":"rooms/room1/room1.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"script1","path":"scripts/script1/script1.yy",},},
+    {"id":{"name":"leaf_cursor","path":"sprites/leaf_cursor/leaf_cursor.yy",},},
     {"id":{"name":"menu_arrow","path":"sprites/menu_arrow/menu_arrow.yy",},},
     {"id":{"name":"post_it","path":"sprites/post_it/post_it.yy",},},
     {"id":{"name":"spr_gob_corpse","path":"sprites/spr_gob_corpse/spr_gob_corpse.yy",},},
