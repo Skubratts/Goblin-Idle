@@ -5,6 +5,7 @@
 direction = irandom(359);                    // initial direction
 speed = irandom(4);                          // move speed
 wander_timer = irandom_range(30,120);        // frames until direction change
+wander = true
 
 // choose frame
 image_speed = 0;
@@ -24,3 +25,7 @@ offset_x = 0;
 offset_y = 0;
 
 grab_y = 0;
+
+// throw code
+prev_x = x;
+hspeed = 0;

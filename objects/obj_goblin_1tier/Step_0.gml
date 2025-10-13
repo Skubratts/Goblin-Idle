@@ -7,6 +7,8 @@ if (mouse_check_button_released(mb_left) && dragging) {
 	vspeed = 0; //reset fall speed
 }
 
+
+
 if (falling) {
 	if (y >= grab_y){
 		y = grab_y; // Snap to ground
@@ -23,15 +25,19 @@ if (falling) {
 		y += vspeed; // Apply motion
 	}
 	return;
+	
 }
 
- wander_timer--;
+// X momentum to throw gobs
+if wander = true{
+	wander_timer--;
 
- if (wander_timer <= 0) {
-	 direction = irandom(359)
-	 wander_timer = irandom_range(30,120)
-	 speed = irandom(3)
- }
+	if (wander_timer <= 0) {
+		direction = irandom(359)
+		wander_timer = irandom_range(30,120)
+		speed = irandom(3)
+	 }
+}
  // Left edge
 if (x <= 0) {
     direction = 180 - direction;
@@ -90,6 +96,7 @@ if (mouse_check_button_pressed(mb_left)) {
         offset_y = y - mouse_y;
 		grab_y = y;	//keeps track of the y-pos at grab
 		vspeed = 0;
+	
     }
 }
 
@@ -99,3 +106,8 @@ if (dragging) {
     y = mouse_y + offset_y;
 }
 
+if (dragging) {
+	wander = false;
+    hspeed = x - prev_x; // Calculate horizontal speed
+    prev_x = x;          // Update previous position
+}
