@@ -17,3 +17,4 @@ if obj_open_book.page_goblins > 1{
 if obj_open_book.page_goblins = 1{
 	obj_open_book.page_goblins += 98
 }
+audio_play_sound(pageturn, 10, false);
