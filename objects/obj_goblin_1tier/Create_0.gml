@@ -11,6 +11,9 @@ wander = true
 image_speed = 0;
 image_index = 0;
 
+//Goblin Spawn List
+gob_spawn_upgrade = 5
+
 //spawn timer
 
 alarm[1] = 600; //  2 frames, resets to 5 minutes
