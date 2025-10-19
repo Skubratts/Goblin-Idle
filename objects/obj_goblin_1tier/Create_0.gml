@@ -27,5 +27,8 @@ offset_y = 0;
 grab_y = 0;
 
 // throw code
-prev_x = x;
+prev_mouse_x = mouse_x;
 hspeed = 0;
+drag_offset_x = 0;
+last_x = x;
+last_y = y;
