@@ -128,6 +128,10 @@ if (speed > 0.1) {
     image_angle = 0;
 }
 
+if (!dragging && !falling) {
+	wander = true;
+}
+
 last_x = x;
 last_y = y;
 
