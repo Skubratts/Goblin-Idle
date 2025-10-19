@@ -30,6 +30,7 @@
     {"name":"obj_menu_next","order":2,"path":"objects/obj_menu_next/obj_menu_next.yy",},
     {"name":"obj_open_book","order":3,"path":"objects/obj_open_book/obj_open_book.yy",},
     {"name":"obj_post","order":4,"path":"objects/obj_post/obj_post.yy",},
+    {"name":"particles","order":12,"path":"objects/particles/particles.yy",},
     {"name":"RoomUI","order":15,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"pageturn","order":4,"path":"sounds/pageturn/pageturn.yy",},
     {"name":"splash","order":1,"path":"sounds/splash/splash.yy",},
