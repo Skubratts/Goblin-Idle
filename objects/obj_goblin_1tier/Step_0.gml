@@ -1,21 +1,51 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (mouse_check_button_released(mb_left) && dragging) {
-	dragging = false;
-	falling = true;
-	vspeed = 0; //reset fall speed
+// Track previous mouse position every frame
+prev_mouse_x = mouse_x;
+
+// Apply horizontal momentum after release
+if (!dragging && !wander) {
+    x += hspeed;
+    hspeed *= 0.9; // Friction or air resistance
+    if (abs(hspeed) < 0.2) { // Optional: stop when it's slow enough
+        hspeed = 0;
+    }
+}
+ 
+ //click n drag
+if (mouse_check_button_pressed(mb_left)) {
+    if (position_meeting(mouse_x, mouse_y, id)) {
+        dragging = true;
+        offset_x = x - mouse_x;
+        offset_y = y - mouse_y;
+		grab_y = y;	//keeps track of the y-pos at grab
+		vspeed = 0;
+		wander = false;
+    }
 }
 
-if (!dragging){
-	x += hspeed;
-	if (abs(hspeed) < 0.1){
-		hspeed = 0;
-		wander = true
-	}
-}	
+//Goblin position follows mouse while dragging
+if (dragging) {
+    // While dragging, follow the mouse exactly
+    x = mouse_x + offset_x;
+    y = mouse_y + offset_y;
 
-if (wander = false) hspeed *= 0.95
+    // Zero out momentum while dragging to prevent flinging
+    hspeed = 0;
+}
+
+if (mouse_check_button_released(mb_left) && dragging) {
+    dragging = false;
+    falling = true;
+
+    // Calculate throw velocity on release
+    hspeed = x - last_x;
+	hspeed = clamp(hspeed, -30, 30);
+
+	vspeed = y - last_y; // vertical inertia
+    vspeed = clamp(vspeed, -20, 30); // optional
+}
 
 if (falling) {
 	if (y >= grab_y){
@@ -36,40 +66,43 @@ if (falling) {
 	
 }
 
+
 // X momentum to throw gobs
-if wander = true{
-	wander_timer--;
+if (wander && !dragging && !falling) {
+    wander_timer--;
 
-	if (wander_timer <= 0) {
-		direction = irandom(359)
-		wander_timer = irandom_range(30,120)
-		speed = irandom(3)
-	 }
-}
- // Left edge
-if (x <= 0) {
-    direction = 180 - direction;
-    x = 0; // Keep it within bounds
+    if (wander_timer <= 0) {
+        direction = irandom(359)
+        wander_timer = irandom_range(30, 120)
+        speed = irandom(3)
+    }
 }
 
-// Right edge
-if (x >= room_width) {
-    direction = 180 - direction;
-    x = room_width;
-}
+if (!dragging) {
+    // Top edge
+    if (y <= 650) {
+        direction = 360 - direction;
+        y = 650;
+    }
 
-// Top edge
-if (y <= 650) {
-    direction = 360 - direction;
-    y = 650;
-}
+    // Bottom edge
+    if (y >= room_height) {
+        direction = 360 - direction;
+        y = room_height;
+    }
 
-// Bottom edge
-if (y >= room_height) {
-    direction = 360 - direction;
-    y = room_height;
-}
+    // Left edge
+    if (x <= 0) {
+        direction = 180 - direction;
+        x = 0;
+    }
 
+    // Right edge
+    if (x >= room_width) {
+        direction = 180 - direction;
+        x = room_width;
+    }
+}
 //Move in the current direction:
 x += lengthdir_x(speed, direction)
 y += lengthdir_y(speed, direction)
@@ -95,24 +128,6 @@ if (speed > 0.1) {
     image_angle = 0;
 }
 
+last_x = x;
+last_y = y;
 
-//click n drag
-if (mouse_check_button_pressed(mb_left)) {
-    if (position_meeting(mouse_x, mouse_y, id)) {
-        dragging = true;
-        offset_x = x - mouse_x;
-        offset_y = y - mouse_y;
-		grab_y = y;	//keeps track of the y-pos at grab
-		vspeed = 0;
-	
-    }
-}
-
-//Goblin position follows mouse while dragging
-if (dragging) {
-    x = mouse_x + offset_x;
-    y = mouse_y + offset_y;
-	wander = false;
-    hspeed = x - prev_x; // Calculate horizontal speed
-    prev_x = x;          // Update previous position
-}
