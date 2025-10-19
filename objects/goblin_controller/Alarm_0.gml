@@ -6,7 +6,7 @@ var xx = irandom(room_width);
 var yy = irandom_range(615, 1080);
 	
 // Check if 5 goblins already exist
-if (ds_queue_size(global.goblin_queue) >= 5) {
+if (ds_queue_size(global.goblin_queue) >= gob_spawn_limit) {
     // Remove the oldest goblin
     var oldest = ds_queue_dequeue(global.goblin_queue);
     if (instance_exists(oldest)) {
@@ -22,7 +22,7 @@ var new_goblin = instance_create_layer(xx, yy, "Instances", obj_goblin_1tier);
 ds_queue_enqueue(global.goblin_queue, new_goblin);
 
 //temp time for testing
-alarm[0] = 1800; // Reset to another 2 seconds?
+alarm[0] = 300; // Reset to another 2 seconds?
 
 //trying to track goblin spawns
 

@@ -16,7 +16,7 @@ gob_spawn_upgrade = 5
 
 //spawn timer
 
-alarm[1] = 600; //  2 frames, resets to 5 minutes
+alarm[1] = 200; //  2 frames, resets to 5 minutes
 
 
 alarm[0] = 60;

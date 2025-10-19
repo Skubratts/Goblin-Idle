@@ -10,6 +10,6 @@ for (var i = 0; i < 100; i++) {
     ds_list_add(global.goblin_list, i);
 }
 
-
+gob_spawn_limit = 5
 
 alarm[1] = 60;

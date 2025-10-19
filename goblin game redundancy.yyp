@@ -47,7 +47,6 @@
     {"id":{"name":"obj_book_button","path":"objects/obj_book_button/obj_book_button.yy",},},
     {"id":{"name":"obj_gob_corpse","path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},},
     {"id":{"name":"obj_goblin_1tier","path":"objects/obj_goblin_1tier/obj_goblin_1tier.yy",},},
-    {"id":{"name":"obj_goblin_all","path":"objects/obj_goblin_all/obj_goblin_all.yy",},},
     {"id":{"name":"obj_menu_back","path":"objects/obj_menu_back/obj_menu_back.yy",},},
     {"id":{"name":"obj_menu_next","path":"objects/obj_menu_next/obj_menu_next.yy",},},
     {"id":{"name":"obj_open_book","path":"objects/obj_open_book/obj_open_book.yy",},},
