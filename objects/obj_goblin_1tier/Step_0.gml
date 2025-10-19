@@ -7,10 +7,19 @@ prev_mouse_x = mouse_x;
 // Apply horizontal momentum after release
 if (!dragging && !wander) {
     x += hspeed;
-    hspeed *= 0.9; // Friction or air resistance
-    if (abs(hspeed) < 0.2) { // Optional: stop when it's slow enough
+    hspeed *= 0.95; // Friction or air resistance
+    if (abs(hspeed) < 0.1) { // Optional: stop when it's slow enough
         hspeed = 0;
     }
+	// Bounce off left/right walls
+    if (x <= 0) {
+        x = 0;
+        hspeed = -hspeed
+    }
+    else if (x >= room_width) {
+        x = room_width;
+        hspeed = -hspeed
+	}
 }
  
  //click n drag
@@ -90,19 +99,19 @@ if (!dragging) {
         direction = 360 - direction;
         y = room_height;
     }
-
-    // Left edge
-    if (x <= 0) {
-        direction = 180 - direction;
-        x = 0;
-    }
-
-    // Right edge
-    if (x >= room_width) {
-        direction = 180 - direction;
-        x = room_width;
-    }
 }
+    // Left edge
+if (x <= 0) {
+direction = 180 - direction;
+x = 0;
+}
+
+// Right edge
+if (x >= room_width) {
+direction = 180 - direction;
+x = room_width;
+}
+
 //Move in the current direction:
 x += lengthdir_x(speed, direction)
 y += lengthdir_y(speed, direction)
