@@ -43,5 +43,6 @@
     {"name":"Sprite5","order":3,"path":"sprites/Sprite5/Sprite5.yy",},
     {"name":"Sprite7","order":1,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"Sprite8","order":2,"path":"sprites/Sprite8/Sprite8.yy",},
+    {"name":"upgrade","order":5,"path":"sprites/upgrade/upgrade.yy",},
   ],
 }

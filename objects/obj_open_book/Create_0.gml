@@ -7,3 +7,6 @@ scale = 1.5
 page_number = 1
 
 page_goblins = 1
+
+image_speed = 0;
+image_index = 0;
