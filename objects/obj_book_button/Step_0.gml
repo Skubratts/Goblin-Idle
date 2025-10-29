@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Check if mouse is over the button
-var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width * 0.5, y - sprite_height * 0.5, x + sprite_width * 0.5, y + sprite_height * 0.5);
+var is_hovered = collision_point(mouse_x, mouse_y, id, true, false);
 
 if (is_hovered) {
     scale = 0.95;
@@ -20,4 +20,10 @@ if (is_hovered && mouse_check_button_pressed(mb_left)) {
 // Decrease the timer
 if (click_timer > 0) {
     click_timer--;
+}
+
+if (!instance_exists(obj_open_book)) {
+    with (obj_goto_upgrade) instance_destroy();
+    with (obj_menu_back) instance_destroy();
+    with (obj_menu_next) instance_destroy();
 }

@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Check if mouse is over the button
 var is_hovered = collision_point(mouse_x, mouse_y, id, true, false);
 
 if (is_hovered) {
