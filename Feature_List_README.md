@@ -1,5 +1,12 @@
 Feature list
 
+
+-Settings menu
+  + sound
+  + Exponent notaion view / Natural Language Naming view (toggle)
+  + Aspect ratios
+  + more as needed
+
 - upgrade menu
   + change all goblin parameters into global variables within the controller object
   + make the goblin coin tracker more stable and easier to reference in other menus
