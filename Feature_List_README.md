@@ -1,29 +1,29 @@
 Feature list
 
 - upgrade menu
-  ~ change all goblin parameters into global variables within the controller object
-  ~ make the goblin coin tracker more stable and easier to reference in other menus
-  ~ fix the goblin page bug (i think its caused by parts of the menu code being on different instance layers)
-  ~ make a temp upgrade menu including
+  + change all goblin parameters into global variables within the controller object
+  + make the goblin coin tracker more stable and easier to reference in other menus
+  + fix the goblin page bug (i think its caused by parts of the menu code being on different instance layers)
+  + make a temp upgrade menu including
     + goblin types
     + goblin lifetime
     + max goblins
     + goblin spawn speed
     + goblin value
     + goblin death value
-  ~ track collected goblins
+  + track collected goblins
     + show only collected goblins in gob book
     + shade out unseen goblins
 
 
 - Transparent window
-  ~ gobbies jump on task bar
-  ~ make the goblins half size
-  ~ keep throwing physics
+  + gobbies jump on task bar
+  + make the goblins half size
+  + keep throwing physics
 
 - Goblin throne to set a fav goblin
-  ~ make fav goblin the desktop pet
-  ~ make fav goblin invincible
+  + make fav goblin the desktop pet
+  + make fav goblin invincible
 
 
 - (eva specific task) Re-order goblin sprite list to have better progression
