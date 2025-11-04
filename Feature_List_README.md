@@ -11,10 +11,20 @@ Feature list
     + goblin spawn speed
     + goblin value
     + goblin death value
+  ~ track collected goblins
+    + show only collected goblins in gob book
+    + shade out unseen goblins
+
 
 - Transparent window
   ~ gobbies jump on task bar
   ~ make the goblins half size
   ~ keep throwing physics
 
-- 
+- Goblin throne to set a fav goblin
+  ~ make fav goblin the desktop pet
+  ~ make fav goblin invincible
+
+
+- (eva specific task) Re-order goblin sprite list to have better progression
+- make minigames that are unlocked by spotting specific goblins
