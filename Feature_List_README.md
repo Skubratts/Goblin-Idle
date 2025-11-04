@@ -1,7 +1,7 @@
 Feature list
 
 
--Settings menu
+- Settings menu
   + sound
   + Exponent notaion view / Natural Language Naming view (toggle)
   + Aspect ratios
