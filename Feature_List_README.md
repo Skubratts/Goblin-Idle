@@ -22,16 +22,22 @@ Feature list
     + show only collected goblins in gob book
     + shade out unseen goblins
 
-
-- Transparent window
-  + gobbies jump on task bar
-  + make the goblins half size
-  + keep throwing physics
-
 - Goblin throne to set a fav goblin
   + make fav goblin the desktop pet
   + make fav goblin invincible
 
+- Transparent window
+  + gobbies jump on task bar
+  + make the goblins half size
+  + change throwing physics so they dont land on greb_y
+
+- Virtual Pet
+  + Happyness
+    + Minigames to boost morale
+  + Hunger
+    + Treatts
+  + Dirtiness
+    + Mud bath
 
 - (eva specific task) Re-order goblin sprite list to have better progression
 - make minigames that are unlocked by spotting specific goblins
