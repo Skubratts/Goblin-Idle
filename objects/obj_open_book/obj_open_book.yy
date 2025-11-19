@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Gob Book",
-    "path":"folders/Objects/Gob Book.yy",
+    "path":"folders/Objects/UI/Gob Book.yy",
   },
   "parentObjectId":null,
   "persistent":false,
