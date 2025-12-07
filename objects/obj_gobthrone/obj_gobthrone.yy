@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gob_corpse",
+  "%Name":"obj_gobthrone",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gob_corpse",
+  "name":"obj_gobthrone",
   "overriddenProperties":[],
   "parent":{
-    "name":"Goblins",
-    "path":"folders/Objects/Goblins.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gob_corpse",
-    "path":"sprites/spr_gob_corpse/spr_gob_corpse.yy",
+    "name":"Sprite14",
+    "path":"sprites/Sprite14/Sprite14.yy",
   },
   "spriteMaskId":null,
   "visible":true,
