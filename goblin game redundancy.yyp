@@ -43,9 +43,9 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"btn_desktop","path":"objects/btn_desktop/btn_desktop.yy",},},
+    {"id":{"name":"controller","path":"objects/controller/controller.yy",},},
     {"id":{"name":"cursor","path":"objects/cursor/cursor.yy",},},
     {"id":{"name":"gob_coin_counter","path":"objects/gob_coin_counter/gob_coin_counter.yy",},},
-    {"id":{"name":"goblin_controller","path":"objects/goblin_controller/goblin_controller.yy",},},
     {"id":{"name":"obj_book_button","path":"objects/obj_book_button/obj_book_button.yy",},},
     {"id":{"name":"obj_gob_corpse","path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},},
     {"id":{"name":"obj_goblin_1tier","path":"objects/obj_goblin_1tier/obj_goblin_1tier.yy",},},
