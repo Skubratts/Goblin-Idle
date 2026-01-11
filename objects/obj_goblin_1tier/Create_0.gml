@@ -12,12 +12,11 @@ image_speed = 0;
 image_index = 0;
 
 //Goblin Spawn List
-gob_spawn_upgrade = 99
+gob_spawn_upgrade = 1
 
 //spawn timer
 
 alarm[1] = 200; //  2 frames, resets to 5 minutes
-
 
 alarm[0] = 60;
 

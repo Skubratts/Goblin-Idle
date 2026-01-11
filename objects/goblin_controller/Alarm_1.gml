@@ -3,4 +3,4 @@
 
 gob_coin_counter.gob_coins += (instance_number(obj_goblin_1tier) * 0.01);
 
-alarm[1] = 60
+alarm[1] = gob_passive_gain
