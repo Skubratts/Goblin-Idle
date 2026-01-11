@@ -11,19 +11,19 @@ for (var i = 0; i < 100; i++) {
 }
 
 // upgrade system variables 
-gob_spawn_limit = 5
+global.gob_spawn_limit = 5
 
-gob_spawn_speed = 300
+global.gob_spawn_speed = 300
 
-gob_passive_gain = 240
+global.gob_passive_gain = 240
 
-gob_kill_gain = 1
+global.gob_kill_gain = 1
 
-//drop_speed
+//global.drop_speed
 
-static_chain = 1
+global.static_chain = 1
 
-static_gain = 0.5 
+global.static_gain = 0.5 
 
 
 alarm[1] = 60;
