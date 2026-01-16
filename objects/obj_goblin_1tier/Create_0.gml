@@ -12,7 +12,6 @@ image_speed = 0;
 image_index = 0;
 
 //Goblin Spawn List
-global.gob_spawn_upgrade = 1
 
 //spawn timer
 

@@ -8,5 +8,5 @@ if(room = upgrade_menu){
 
 	var draw_color = is_hovered ? make_color_rgb(200, 200, 200) : c_white;
 
-	draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,988,684,0.8,0.8,0, draw_color, 1 )
+	draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,1304,804,0.8,0.8,0, draw_color, 1 )
 }
