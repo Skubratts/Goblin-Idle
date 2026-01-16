@@ -12,7 +12,7 @@ image_speed = 0;
 image_index = 0;
 
 //Goblin Spawn List
-controller.gob_spawn_upgrade = 1
+global.gob_spawn_upgrade = 1
 
 //spawn timer
 

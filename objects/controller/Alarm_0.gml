@@ -6,23 +6,23 @@ var xx = irandom(room_width);
 var yy = irandom_range(615, 1080);
 	
 // Check if 5 goblins already exist
-if (ds_queue_size(global.goblin_queue) >= gob_spawn_limit) {
+if (ds_queue_size(global.goblin_queue) >= global.gob_spawn_limit) {
     // Remove the oldest goblin
     var oldest = ds_queue_dequeue(global.goblin_queue);
     if (instance_exists(oldest)) {
  // Create corpse at the goblin's last position
-        instance_create_layer(oldest.x, oldest.y, "Instances", obj_gob_corpse);
+        instance_create_layer(oldest.x, oldest.y, "Instances_1", obj_gob_corpse);
         instance_destroy(oldest);
     }
 }
 
-var new_goblin = instance_create_layer(xx, yy, "Instances", obj_goblin_1tier);
+var new_goblin = instance_create_layer(xx, yy, "Instances_1", obj_goblin_1tier);
 
 // Add the new goblin to the queue
 ds_queue_enqueue(global.goblin_queue, new_goblin);
 
 //temp time for testing
-alarm[0] = gob_spawn_speed; // Reset to another 2 seconds?
+alarm[0] = global.gob_spawn_speed; // Reset to another 2 seconds?
 
 //trying to track goblin spawns
 

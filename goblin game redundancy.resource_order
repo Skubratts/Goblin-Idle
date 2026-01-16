@@ -39,6 +39,7 @@
     {"name":"spawn_limit_button","order":1,"path":"objects/spawn_limit_button/spawn_limit_button.yy",},
     {"name":"spawn_speed_button","order":3,"path":"objects/spawn_speed_button/spawn_speed_button.yy",},
     {"name":"spawn_upgrade_button","order":2,"path":"objects/spawn_upgrade_button/spawn_upgrade_button.yy",},
+    {"name":"Upgrade_exit","order":7,"path":"objects/Upgrade_exit/Upgrade_exit.yy",},
     {"name":"upgrade_menu","order":1,"path":"rooms/upgrade_menu/upgrade_menu.yy",},
     {"name":"RoomUI","order":15,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"pageturn","order":4,"path":"sounds/pageturn/pageturn.yy",},

@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_index = irandom_range(1, controller.gob_spawn_upgrade);
+image_index = irandom_range(1, global.gob_spawn_upgrade);

@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.gob_coins += global.gob_kill_gain
+
+Upgrade_cost = 5

@@ -11,27 +11,27 @@ for (var i = 0; i < 100; i++) {
 }
 
 //sets value of coin counter to 0 to start
-gob_coins = 0
+global.gob_coins = 0
 
 // upgrade system variables 
 
 // max amount of goblins allowed to spawn
-gob_spawn_limit = 5
+global.gob_spawn_limit = 5
 
 // the tier of goblin you can spawn
-gob_spawn_upgrade = 1
+global.gob_spawn_upgrade = 1
 
 //controller alarm [0] speed
-gob_spawn_speed = 300
+global.gob_spawn_speed = 300
 
 //amount of money makes in alarm [1]
-gob_passive_value = 0.01
+global.gob_passive_value = 0.01
 
 //controller alarm [1] speed
-gob_passive_speed = 240
+global.gob_passive_speed = 240
 
 //amount made on goblin death
-gob_kill_gain = 1
+global.gob_kill_gain = 1
 
 // will effect goblin fall speed for the squish mechanic
 //drop_speed
