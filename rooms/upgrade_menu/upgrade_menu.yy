@@ -12,6 +12,7 @@
     {"name":"inst_36DA3B5C","path":"rooms/upgrade_menu/upgrade_menu.yy",},
     {"name":"inst_4D504E86","path":"rooms/upgrade_menu/upgrade_menu.yy",},
     {"name":"inst_18E4BC68","path":"rooms/upgrade_menu/upgrade_menu.yy",},
+    {"name":"inst_6F474E71","path":"rooms/upgrade_menu/upgrade_menu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,6 +23,7 @@
         {"$GMRInstance":"v4","%Name":"inst_36DA3B5C","colour":4278255615,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36DA3B5C","objectId":{"name":"passive_value_button","path":"objects/passive_value_button/passive_value_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1,"scaleY":0.1,"x":864.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_4D504E86","colour":4278226175,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D504E86","objectId":{"name":"spawn_speed_button","path":"objects/spawn_speed_button/spawn_speed_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1,"scaleY":0.1,"x":864.0,"y":384.0,},
         {"$GMRInstance":"v4","%Name":"inst_18E4BC68","colour":4294901998,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18E4BC68","objectId":{"name":"spawn_upgrade_button","path":"objects/spawn_upgrade_button/spawn_upgrade_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1,"scaleY":0.1,"x":864.0,"y":608.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6F474E71","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F474E71","objectId":{"name":"cursor","path":"objects/cursor/cursor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
