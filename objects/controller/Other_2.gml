@@ -13,6 +13,9 @@ global.gob_spawn_limit = 5
 
 // the tier of goblin you can spawn
 global.gob_spawn_upgrade = 1
+	//this should be tied together, as the goblin tier levels up so does their value on death
+	//amount made on goblin death
+	global.gob_kill_gain = 1
 
 //controller alarm [0] speed
 global.gob_spawn_speed = 300
@@ -23,8 +26,7 @@ global.gob_passive_value = 0.01
 //controller alarm [1] speed
 global.gob_passive_speed = 240
 
-//amount made on goblin death
-global.gob_kill_gain = 1
+
 
 // will effect goblin fall speed for the squish mechanic
 //drop_speed
