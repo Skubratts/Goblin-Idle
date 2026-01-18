@@ -22,7 +22,6 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"btn_desktop","order":1,"path":"objects/btn_desktop/btn_desktop.yy",},
     {"name":"cursor","order":11,"path":"objects/cursor/cursor.yy",},
     {"name":"gob_coin_counter","order":4,"path":"objects/gob_coin_counter/gob_coin_counter.yy",},
     {"name":"obj_gob_corpse","order":1,"path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},
@@ -39,6 +38,7 @@
     {"name":"spawn_limit_button","order":1,"path":"objects/spawn_limit_button/spawn_limit_button.yy",},
     {"name":"spawn_speed_button","order":3,"path":"objects/spawn_speed_button/spawn_speed_button.yy",},
     {"name":"spawn_upgrade_button","order":2,"path":"objects/spawn_upgrade_button/spawn_upgrade_button.yy",},
+    {"name":"toggle_killmode","order":1,"path":"objects/toggle_killmode/toggle_killmode.yy",},
     {"name":"Upgrade_exit","order":7,"path":"objects/Upgrade_exit/Upgrade_exit.yy",},
     {"name":"upgrade_menu","order":1,"path":"rooms/upgrade_menu/upgrade_menu.yy",},
     {"name":"RoomUI","order":15,"path":"roomui/RoomUI/RoomUI.yy",},

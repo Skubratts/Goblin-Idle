@@ -43,7 +43,6 @@
   "name":"goblin game redundancy",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
-    {"id":{"name":"btn_desktop","path":"objects/btn_desktop/btn_desktop.yy",},},
     {"id":{"name":"controller","path":"objects/controller/controller.yy",},},
     {"id":{"name":"cursor","path":"objects/cursor/cursor.yy",},},
     {"id":{"name":"gob_coin_counter","path":"objects/gob_coin_counter/gob_coin_counter.yy",},},
@@ -62,6 +61,7 @@
     {"id":{"name":"spawn_limit_button","path":"objects/spawn_limit_button/spawn_limit_button.yy",},},
     {"id":{"name":"spawn_speed_button","path":"objects/spawn_speed_button/spawn_speed_button.yy",},},
     {"id":{"name":"spawn_upgrade_button","path":"objects/spawn_upgrade_button/spawn_upgrade_button.yy",},},
+    {"id":{"name":"toggle_killmode","path":"objects/toggle_killmode/toggle_killmode.yy",},},
     {"id":{"name":"Upgrade_exit","path":"objects/Upgrade_exit/Upgrade_exit.yy",},},
     {"id":{"name":"upgrade_menu_button","path":"objects/upgrade_menu_button/upgrade_menu_button.yy",},},
     {"id":{"name":"room1","path":"rooms/room1/room1.yy",},},
