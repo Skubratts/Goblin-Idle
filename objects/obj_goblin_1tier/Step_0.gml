@@ -141,6 +141,6 @@ if (!dragging && !falling) {
 	wander = true;
 }
 
+
 last_x = x;
 last_y = y;
-

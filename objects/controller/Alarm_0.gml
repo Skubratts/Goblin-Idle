@@ -16,10 +16,21 @@ if (ds_queue_size(global.goblin_queue) >= global.gob_spawn_limit) {
     }
 }
 
-var new_goblin = instance_create_layer(xx, yy, "Instances_1", obj_goblin_1tier);
+var offset = 8;
+var can_spawn = global.gob_spawn_limit - ds_queue_size(global.goblin_queue);
+var spawn_count = min(global.gob_spawn_amount, can_spawn);
 
-// Add the new goblin to the queue
-ds_queue_enqueue(global.goblin_queue, new_goblin);
+for (var i = 0; i < spawn_count; i++) {
+
+    var new_goblin = instance_create_layer(
+        xx + i * offset,
+        yy,
+        "Instances_1",
+        obj_goblin_1tier
+    );
+
+    ds_queue_enqueue(global.goblin_queue, new_goblin);
+}
 
 //temp time for testing
 alarm[0] = global.gob_spawn_speed; // Reset to another 2 seconds?

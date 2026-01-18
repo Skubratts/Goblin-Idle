@@ -26,6 +26,7 @@ global.gob_passive_value = 0.01
 //controller alarm [1] speed
 global.gob_passive_speed = 240
 
+global.gob_spawn_amount = 1
 
 
 // will effect goblin fall speed for the squish mechanic

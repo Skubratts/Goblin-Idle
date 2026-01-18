@@ -35,7 +35,7 @@
     {"name":"particles","order":12,"path":"objects/particles/particles.yy",},
     {"name":"passive_speed_button","order":5,"path":"objects/passive_speed_button/passive_speed_button.yy",},
     {"name":"passive_value_button","order":4,"path":"objects/passive_value_button/passive_value_button.yy",},
-    {"name":"placeholder_button","order":6,"path":"objects/placeholder_button/placeholder_button.yy",},
+    {"name":"spawn_amount_button","order":6,"path":"objects/spawn_amount_button/spawn_amount_button.yy",},
     {"name":"spawn_limit_button","order":1,"path":"objects/spawn_limit_button/spawn_limit_button.yy",},
     {"name":"spawn_speed_button","order":3,"path":"objects/spawn_speed_button/spawn_speed_button.yy",},
     {"name":"spawn_upgrade_button","order":2,"path":"objects/spawn_upgrade_button/spawn_upgrade_button.yy",},

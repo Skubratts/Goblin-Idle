@@ -58,7 +58,7 @@
     {"id":{"name":"particles","path":"objects/particles/particles.yy",},},
     {"id":{"name":"passive_speed_button","path":"objects/passive_speed_button/passive_speed_button.yy",},},
     {"id":{"name":"passive_value_button","path":"objects/passive_value_button/passive_value_button.yy",},},
-    {"id":{"name":"placeholder_button","path":"objects/placeholder_button/placeholder_button.yy",},},
+    {"id":{"name":"spawn_amount_button","path":"objects/spawn_amount_button/spawn_amount_button.yy",},},
     {"id":{"name":"spawn_limit_button","path":"objects/spawn_limit_button/spawn_limit_button.yy",},},
     {"id":{"name":"spawn_speed_button","path":"objects/spawn_speed_button/spawn_speed_button.yy",},},
     {"id":{"name":"spawn_upgrade_button","path":"objects/spawn_upgrade_button/spawn_upgrade_button.yy",},},

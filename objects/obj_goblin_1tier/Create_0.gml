@@ -33,5 +33,5 @@ hspeed = 0;
 drag_offset_x = 0;
 last_x = x;
 last_y = y;
-
+prev_vspeed = 0;
 depth = 1
