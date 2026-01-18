@@ -22,6 +22,7 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Font_small","order":1,"path":"fonts/Font_small/Font_small.yy",},
     {"name":"cursor","order":11,"path":"objects/cursor/cursor.yy",},
     {"name":"gob_coin_counter","order":4,"path":"objects/gob_coin_counter/gob_coin_counter.yy",},
     {"name":"obj_gob_corpse","order":1,"path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},

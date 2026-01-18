@@ -42,6 +42,7 @@
   },
   "name":"goblin game redundancy",
   "resources":[
+    {"id":{"name":"Font_small","path":"fonts/Font_small/Font_small.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"controller","path":"objects/controller/controller.yy",},},
     {"id":{"name":"cursor","path":"objects/cursor/cursor.yy",},},
