@@ -39,5 +39,9 @@ if(room = upgrade_menu){
 // Draw the count at a position on the screen
 
 	draw_text(x + 35,y + 15,"Spawn Time")
+	
+	draw_set_color(c_yellow);  
+	
+	draw_text( x, y + 15, upgrade_level)
 }
 

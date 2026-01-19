@@ -5,4 +5,5 @@
 
 
 global.gob_spawn_upgrade += 1;
-global.gob_kill_gain += 1;
+global.gob_kill_gain += 0.5;
+upgrade_level += 1;

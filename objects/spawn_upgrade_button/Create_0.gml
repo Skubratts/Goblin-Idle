@@ -4,4 +4,5 @@
 scale = 1;
 button_color = c_white;
 click_timer = 0;
-Upgrade_cost = 5
+upgrade_cost = 5
+upgrade_level = 0

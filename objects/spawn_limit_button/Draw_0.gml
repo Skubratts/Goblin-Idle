@@ -38,6 +38,10 @@ if(room = upgrade_menu){
 // Draw the count at a position on the screen
 
 	draw_text(x + 40,y + 15,"Spawn Cap")
+	
+	draw_set_color(c_yellow);  
+	
+	draw_text( x, y + 15, upgrade_level)
 }
 
 

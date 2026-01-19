@@ -39,6 +39,10 @@ if(room = upgrade_menu){
 // Draw the count at a position on the screen
 
 	draw_text(x + 45,y + 15,"Gob Tier") 
+	
+	draw_set_colour(c_yellow)
+	
+	draw_text( x, y + 15, upgrade_level)
 }
 
 if(room = upgrade_menu){

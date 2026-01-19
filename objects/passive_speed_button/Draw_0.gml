@@ -35,8 +35,10 @@ if(room = upgrade_menu){
 // Set color
 	draw_set_color(c_black); 
 
-// Draw the count at a position on the screen
-
 	draw_text(x + 35,y + 15,"Earn Speed")
+	
+	draw_set_color(c_yellow);  
+	
+	draw_text( x, y + 15, upgrade_level)
 }
 

@@ -38,6 +38,10 @@ if(room = upgrade_menu){
 // Draw the count at a position on the screen
 
 	draw_text(x + 35,y + 15,"Spawn lvl")
+	
+	draw_set_color(c_yellow);  
+	
+	draw_text( x, y + 15, upgrade_level)
 }
 var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width * 0.5, y - sprite_height * 0.5, x + sprite_width * 0.5, y + sprite_height * 0.5);
 

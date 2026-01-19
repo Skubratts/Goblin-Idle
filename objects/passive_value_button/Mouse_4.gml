@@ -4,3 +4,4 @@
 
 // this one will need to scale more
 global.gob_passive_value += 0.01;
+upgrade_level += 1;

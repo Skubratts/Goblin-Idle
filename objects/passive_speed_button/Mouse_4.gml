@@ -4,3 +4,4 @@
 //increases the speed the passive value is generated at by 0.1 seconds
 
 global.gob_passive_speed -= 6;
+upgrade_level += 1;
