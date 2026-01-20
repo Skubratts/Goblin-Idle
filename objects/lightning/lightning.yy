@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"cursor",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"lightning",
+  "eventList":[],
   "managed":true,
-  "name":"cursor",
+  "name":"lightning",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"Spells",
+    "path":"folders/Objects/Spells.yy",
   },
   "parentObjectId":null,
   "persistent":false,
