@@ -19,6 +19,7 @@
     {"$GMFolder":"","%Name":"Spells","folderPath":"folders/Objects/Spells.yy","name":"Spells","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Gob Book","folderPath":"folders/Objects/UI/Gob Book.yy","name":"Gob Book","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Virtual Pet Stats","folderPath":"folders/Objects/UI/Virtual Pet Stats.yy","name":"Virtual Pet Stats","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Upgrade menu","folderPath":"folders/Objects/UI/Upgrade menu.yy","name":"Upgrade menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -45,6 +46,9 @@
   "resources":[
     {"id":{"name":"Font_small","path":"fonts/Font_small/Font_small.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"bar_filth","path":"objects/bar_filth/bar_filth.yy",},},
+    {"id":{"name":"bar_hunger","path":"objects/bar_hunger/bar_hunger.yy",},},
+    {"id":{"name":"bar_mood","path":"objects/bar_mood/bar_mood.yy",},},
     {"id":{"name":"controller","path":"objects/controller/controller.yy",},},
     {"id":{"name":"cursor","path":"objects/cursor/cursor.yy",},},
     {"id":{"name":"gob_coin_counter","path":"objects/gob_coin_counter/gob_coin_counter.yy",},},
@@ -68,6 +72,7 @@
     {"id":{"name":"toggle_killmode","path":"objects/toggle_killmode/toggle_killmode.yy",},},
     {"id":{"name":"Upgrade_exit","path":"objects/Upgrade_exit/Upgrade_exit.yy",},},
     {"id":{"name":"upgrade_menu_button","path":"objects/upgrade_menu_button/upgrade_menu_button.yy",},},
+    {"id":{"name":"pet_room","path":"rooms/pet_room/pet_room.yy",},},
     {"id":{"name":"room1","path":"rooms/room1/room1.yy",},},
     {"id":{"name":"upgrade_menu","path":"rooms/upgrade_menu/upgrade_menu.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
@@ -98,6 +103,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"room1","path":"rooms/room1/room1.yy",},},
     {"roomId":{"name":"upgrade_menu","path":"rooms/upgrade_menu/upgrade_menu.yy",},},
+    {"roomId":{"name":"pet_room","path":"rooms/pet_room/pet_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
