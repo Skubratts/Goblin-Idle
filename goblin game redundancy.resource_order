@@ -27,6 +27,7 @@
     {"name":"cursor","order":3,"path":"objects/cursor/cursor.yy",},
     {"name":"gob_coin_counter","order":4,"path":"objects/gob_coin_counter/gob_coin_counter.yy",},
     {"name":"obj_gob_corpse","order":1,"path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},
+    {"name":"obj_gob_king","order":4,"path":"objects/obj_gob_king/obj_gob_king.yy",},
     {"name":"obj_goblin_1tier","order":3,"path":"objects/obj_goblin_1tier/obj_goblin_1tier.yy",},
     {"name":"obj_gobthrone","order":15,"path":"objects/obj_gobthrone/obj_gobthrone.yy",},
     {"name":"obj_menu_back","order":1,"path":"objects/obj_menu_back/obj_menu_back.yy",},

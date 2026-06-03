@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"goblin game redundancy",
   "resources":[
@@ -51,6 +51,7 @@
     {"id":{"name":"lightning","path":"objects/lightning/lightning.yy",},},
     {"id":{"name":"obj_book_button","path":"objects/obj_book_button/obj_book_button.yy",},},
     {"id":{"name":"obj_gob_corpse","path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},},
+    {"id":{"name":"obj_gob_king","path":"objects/obj_gob_king/obj_gob_king.yy",},},
     {"id":{"name":"obj_goblin_1tier","path":"objects/obj_goblin_1tier/obj_goblin_1tier.yy",},},
     {"id":{"name":"obj_gobthrone","path":"objects/obj_gobthrone/obj_gobthrone.yy",},},
     {"id":{"name":"obj_menu_back","path":"objects/obj_menu_back/obj_menu_back.yy",},},
