@@ -1,9 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//if(global.gob_coins = upgrade cost && global.gob_spawn_upgrade >100
+if(global.gob_coins >= upgrade_cost) {
 
 
-global.gob_spawn_upgrade += 1;
-global.gob_kill_gain += 0.5;
-upgrade_level += 1;
+
+	global.gob_spawn_amount += 1;
+	
+	//not sure why this isnt its own button
+	global.gob_kill_gain += 0.5;
+	
+	upgrade_level += 1;
+	
+	global.gob_coins -= upgrade_cost;
+	
+	upgrade_cost *= 10;
+ 
+}

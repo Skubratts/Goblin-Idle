@@ -43,6 +43,9 @@ if(room = upgrade_menu){
 	draw_set_colour(c_yellow)
 	
 	draw_text( x, y + 15, upgrade_level)
+	
+	//draw upgrade cost
+	draw_text( x , y , upgrade_cost)
 }
 
 if(room = upgrade_menu){
@@ -50,5 +53,4 @@ if(room = upgrade_menu){
 	draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,1304,804,0.8,0.8,0, draw_color, 1 )
 
 }
-
 
