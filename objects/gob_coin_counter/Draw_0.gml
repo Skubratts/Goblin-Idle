@@ -10,4 +10,4 @@ draw_set_color(c_white);
 
 // Draw the count at a position on the screen
 
-draw_text(100, 100, "$" + string(global.gob_coins));
+draw_text(100, 35, "$" + string(global.gob_coins));
