@@ -50,6 +50,7 @@
     {"name":"pet_room","order":2,"path":"rooms/pet_room/pet_room.yy",},
     {"name":"upgrade_menu","order":1,"path":"rooms/upgrade_menu/upgrade_menu.yy",},
     {"name":"RoomUI","order":14,"path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"Boop","order":5,"path":"sounds/Boop/Boop.yy",},
     {"name":"pageturn","order":4,"path":"sounds/pageturn/pageturn.yy",},
     {"name":"splash","order":1,"path":"sounds/splash/splash.yy",},
     {"name":"splash2","order":2,"path":"sounds/splash2/splash2.yy",},
