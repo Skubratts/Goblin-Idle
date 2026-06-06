@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(room = upgrade_menu){
+if(room == upgrade_menu){
 	// Check hover again
 	var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width, y - sprite_height, x + sprite_width, y + sprite_height);
 
@@ -33,6 +33,8 @@ if(room = upgrade_menu){
 // Set font
 	draw_set_font(Font_small);
 
+//draw upgrade cost
+
 // Set color
 	draw_set_color(c_black); 
 
@@ -44,11 +46,16 @@ if(room = upgrade_menu){
 	
 	draw_text( x, y + 15, upgrade_level)
 	
-	//draw upgrade cost
-	draw_text( x , y , upgrade_cost)
+	if global.gob_coins < upgrade_cost{
+		draw_set_colour(c_red)
+	}
+	if global.gob_coins >= upgrade_cost{
+		draw_set_colour(c_ltgray)	
+	}
+	draw_text( x , y + 35, upgrade_cost)
 }
 
-if(room = upgrade_menu){
+if(room == upgrade_menu){
 
 	draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,1304,804,0.8,0.8,0, draw_color, 1 )
 

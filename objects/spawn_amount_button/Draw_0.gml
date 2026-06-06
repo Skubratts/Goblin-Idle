@@ -42,6 +42,14 @@ if(room = upgrade_menu){
 	draw_set_color(c_yellow);  
 	
 	draw_text( x, y + 15, upgrade_level)
+	
+	if global.gob_coins < upgrade_cost{
+		draw_set_colour(c_red)
+	}
+	if global.gob_coins >= upgrade_cost{
+		draw_set_colour(c_ltgray)	
+	}
+	draw_text( x , y + 35, upgrade_cost)
 }
 var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width * 0.5, y - sprite_height * 0.5, x + sprite_width * 0.5, y + sprite_height * 0.5);
 
