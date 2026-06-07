@@ -55,6 +55,7 @@
     {"name":"splash","order":1,"path":"sounds/splash/splash.yy",},
     {"name":"splash2","order":2,"path":"sounds/splash2/splash2.yy",},
     {"name":"splash3","order":3,"path":"sounds/splash3/splash3.yy",},
+    {"name":"toot","order":6,"path":"sounds/toot/toot.yy",},
     {"name":"button_placeholder","order":6,"path":"sprites/button_placeholder/button_placeholder.yy",},
     {"name":"leaf_cursor","order":4,"path":"sprites/leaf_cursor/leaf_cursor.yy",},
     {"name":"post_it","order":3,"path":"sprites/post_it/post_it.yy",},

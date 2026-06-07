@@ -84,6 +84,7 @@
     {"id":{"name":"splash2","path":"sounds/splash2/splash2.yy",},},
     {"id":{"name":"splash3","path":"sounds/splash3/splash3.yy",},},
     {"id":{"name":"squish","path":"sounds/squish/squish.yy",},},
+    {"id":{"name":"toot","path":"sounds/toot/toot.yy",},},
     {"id":{"name":"button_placeholder","path":"sprites/button_placeholder/button_placeholder.yy",},},
     {"id":{"name":"leaf_cursor","path":"sprites/leaf_cursor/leaf_cursor.yy",},},
     {"id":{"name":"menu_arrow","path":"sprites/menu_arrow/menu_arrow.yy",},},
