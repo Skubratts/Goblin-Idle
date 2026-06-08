@@ -12,7 +12,7 @@ if (left_index <= global.gob_spawn_upgrade) {
 } else {
     draw_sprite_ext(spr_goblist, left_index, 713, 480, 1, 1, 0, c_black, 1);
     draw_set_color(c_white);
-    draw_text(713, 480, "???");
+    draw_text(653, 495, "???");
 }
 
 if (right_index <= global.gob_spawn_upgrade) {
@@ -20,7 +20,7 @@ if (right_index <= global.gob_spawn_upgrade) {
 } else {
     draw_sprite_ext(spr_goblist, right_index, 1211, 480, 1, 1, 0, c_black, 1);
     draw_set_color(c_white);
-    draw_text(1211, 480, "???");
+    draw_text(1151, 495, "???");
 }
 
 

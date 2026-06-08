@@ -5,52 +5,27 @@
 var xx = irandom(room_width);
 var yy = irandom_range(615, 1080);
 	
-// Check if 5 goblins already exist
-if (ds_list_size(global.goblin_queue) >= global.gob_spawn_limit) {
-    // Remove the oldest goblin
-    var oldest = global.goblin_queue[|0]; // store first instance
-	ds_list_delete(global.goblin_queue, 0); // then delete it from the list
-
-	if (instance_exists(oldest)) {
-		instance_create_layer(oldest.x, oldest.y, "Instances_1", obj_gob_corpse);
-	 instance_destroy(oldest);
-	}
-
+// Remove as many as needed to make room for the new spawn
+var to_remove = max(0, ds_list_size(global.goblin_queue) + global.gob_spawn_amount - global.gob_spawn_limit);
+repeat (to_remove) {
+    var oldest = global.goblin_queue[| 0];
+    ds_list_delete(global.goblin_queue, 0);
+    if (instance_exists(oldest)) {
+        instance_create_layer(oldest.x, oldest.y, "Instances_1", obj_gob_corpse);
+        instance_destroy(oldest);
+    }
 }
 
+// Spawn the full amount
 var offset = 8;
-var can_spawn = global.gob_spawn_limit - ds_list_size(global.goblin_queue);
-var spawn_count = min(global.gob_spawn_amount, can_spawn);
-
-for (var i = 0; i < spawn_count; i++) {
-
+for (var i = 0; i < global.gob_spawn_amount; i++) {
     var new_goblin = instance_create_layer(
         xx + i * offset,
         yy,
         "Instances_1",
         obj_goblin_1tier
     );
-
-  ds_list_add(global.goblin_queue, new_goblin);
+    ds_list_add(global.goblin_queue, new_goblin);
 }
 
-//temp time for testing
-alarm[0] = global.gob_spawn_speed; // Reset to another 2 seconds?
-
-//trying to track goblin spawns
-
-// so far spawns a new goblin of any of the 100 and then they grow up to one of the 5 of the base goblins
-
-//if (ds_list_size(global.goblin_list) > 0) {
-//    var index = irandom(ds_list_size(global.goblin_list) - 1);
-//    var frame = global.goblin_list[| index];
-
-    // Remove it so it's not used again
-//    ds_list_delete(global.goblin_list, index);
-
-    // Create the instance with that frame
-//    var inst = instance_create_layer(x, y, "Instances",obj_goblin_1tier);
-//    inst.image_index = frame; // Assign the selected frame
-//} else {
-//    show_debug_message("All frames have been used.");
-//}
+alarm[0] = global.gob_spawn_speed;
