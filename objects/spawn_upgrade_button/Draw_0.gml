@@ -56,8 +56,11 @@ if(room == upgrade_menu){
 }
 
 if(room == upgrade_menu){
-
-	draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,1304,804,0.8,0.8,0, draw_color, 1 )
-
+	if global.gob_coins < upgrade_cost{
+		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,1470,824,0.8,0.8,0, c_black, 1 )
+	}
+	else if global.gob_coins >= upgrade_cost{
+		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,1470,824,0.8,0.8,0, draw_color, 1 )
+	}
 }
 
