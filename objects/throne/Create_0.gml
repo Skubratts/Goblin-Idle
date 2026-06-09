@@ -1,0 +1,2 @@
+
+global.gob_throne = 0
