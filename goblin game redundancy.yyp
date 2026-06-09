@@ -52,6 +52,7 @@
     {"id":{"name":"bar_mood","path":"objects/bar_mood/bar_mood.yy",},},
     {"id":{"name":"controller","path":"objects/controller/controller.yy",},},
     {"id":{"name":"cursor","path":"objects/cursor/cursor.yy",},},
+    {"id":{"name":"decor_controller","path":"objects/decor_controller/decor_controller.yy",},},
     {"id":{"name":"gob_coin_counter","path":"objects/gob_coin_counter/gob_coin_counter.yy",},},
     {"id":{"name":"lightning","path":"objects/lightning/lightning.yy",},},
     {"id":{"name":"obj_book_button","path":"objects/obj_book_button/obj_book_button.yy",},},

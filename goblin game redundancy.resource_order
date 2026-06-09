@@ -29,6 +29,7 @@
     {"name":"bar_filth","order":2,"path":"objects/bar_filth/bar_filth.yy",},
     {"name":"bar_hunger","order":1,"path":"objects/bar_hunger/bar_hunger.yy",},
     {"name":"cursor","order":4,"path":"objects/cursor/cursor.yy",},
+    {"name":"decor_controller","order":1,"path":"objects/decor_controller/decor_controller.yy",},
     {"name":"gob_coin_counter","order":4,"path":"objects/gob_coin_counter/gob_coin_counter.yy",},
     {"name":"obj_gob_corpse","order":1,"path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},
     {"name":"obj_gob_king_throne","order":4,"path":"objects/obj_gob_king_throne/obj_gob_king_throne.yy",},

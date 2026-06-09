@@ -26,6 +26,6 @@ else if (is_hovered) {
 }
 
 // Draw the sprite
-draw_sprite_ext(Sprite14, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
+draw_sprite_ext(Sprite14, vchair, x, y, draw_scale, draw_scale, 0, draw_color, 1);
 
 // I ripped a lot of this from chat GPT so some of it might be redundant
