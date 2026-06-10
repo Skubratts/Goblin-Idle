@@ -60,6 +60,7 @@
     {"name":"splash3","order":3,"path":"sounds/splash3/splash3.yy",},
     {"name":"toot","order":6,"path":"sounds/toot/toot.yy",},
     {"name":"button_placeholder","order":6,"path":"sprites/button_placeholder/button_placeholder.yy",},
+    {"name":"decor","order":8,"path":"sprites/decor/decor.yy",},
     {"name":"leaf_cursor","order":4,"path":"sprites/leaf_cursor/leaf_cursor.yy",},
     {"name":"post_it","order":3,"path":"sprites/post_it/post_it.yy",},
     {"name":"spr_gob_corpse","order":1,"path":"sprites/spr_gob_corpse/spr_gob_corpse.yy",},
