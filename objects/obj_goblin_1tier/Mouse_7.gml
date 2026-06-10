@@ -8,7 +8,7 @@ if (target != noone) {
 		//should be conditional on there no being one already
 	if !instance_exists(obj_gob_king_throne) {
 		
-		instance_create_depth(1377,500,1,obj_gob_king_throne)
+		instance_create_depth(1377,555,1,obj_gob_king_throne)
 	}
 	else {
 		obj_gob_king_throne.image_index = global.king_frame
