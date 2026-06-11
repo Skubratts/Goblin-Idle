@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_decor_back",
+  "%Name":"obj_throne_next",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_decor_back",
+  "name":"obj_throne_next",
   "overriddenProperties":[],
   "parent":{
     "name":"Decor UI",

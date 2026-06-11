@@ -1,1 +1,1 @@
-global.gob_throne = 2
+global.gob_throne = 0
