@@ -8,4 +8,3 @@ depth = 50
 image_speed = 0;
 
 //gob throne number
-vchair = global.gob_throne

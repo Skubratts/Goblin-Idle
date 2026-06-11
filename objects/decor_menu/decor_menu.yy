@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"decor",
-    "path":"sprites/decor/decor.yy",
+    "name":"spr_decor_button",
+    "path":"sprites/spr_decor_button/spr_decor_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

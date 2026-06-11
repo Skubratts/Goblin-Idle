@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite13",
-    "path":"sprites/Sprite13/Sprite13.yy",
+    "name":"spr_gob_button",
+    "path":"sprites/spr_gob_button/spr_gob_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

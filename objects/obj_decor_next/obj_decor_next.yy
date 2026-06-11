@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_decor_next",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_decor_next",
   "overriddenProperties":[],
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_arrow_small",
+    "path":"sprites/spr_arrow_small/spr_arrow_small.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
