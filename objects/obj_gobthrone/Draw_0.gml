@@ -10,7 +10,7 @@ var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width * 0.5, y 
 var draw_color = is_hovered ? make_color_rgb(200, 200, 200) : c_white;
 
 // Draw the sprite
-draw_sprite_ext(Sprite14, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
+draw_sprite_ext(spr_throne, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
 
 // Default scale and color
 
@@ -26,6 +26,6 @@ else if (is_hovered) {
 }
 
 // Draw the sprite
-draw_sprite_ext(Sprite14, vchair, x, y, draw_scale, draw_scale, 0, draw_color, 1);
+draw_sprite_ext(spr_throne, vchair, x, y, draw_scale, draw_scale, 0, draw_color, 1);
 
 // I ripped a lot of this from chat GPT so some of it might be redundant

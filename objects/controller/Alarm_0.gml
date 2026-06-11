@@ -23,7 +23,7 @@ for (var i = 0; i < global.gob_spawn_amount; i++) {
         xx + i * offset,
         yy,
         "Instances_1",
-        obj_goblin_1tier
+        obj_goblin_villager
     );
     ds_list_add(global.goblin_queue, new_goblin);
 }
