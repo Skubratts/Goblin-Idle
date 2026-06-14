@@ -1,3 +1,4 @@
+
 if global.wall < 1{
 	global.wall += 1;
 }
