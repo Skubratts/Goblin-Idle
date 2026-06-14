@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_throne_back",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_floor",
+  "eventList":[],
   "managed":true,
-  "name":"obj_throne_back",
+  "name":"obj_floor",
   "overriddenProperties":[],
   "parent":{
-    "name":"throne arrows",
-    "path":"folders/Objects/Decor/Decor UI/throne arrows.yy",
+    "name":"Decor",
+    "path":"folders/Objects/Decor.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_arrow_small",
-    "path":"sprites/spr_arrow_small/spr_arrow_small.yy",
+    "name":"spr_floor",
+    "path":"sprites/spr_floor/spr_floor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

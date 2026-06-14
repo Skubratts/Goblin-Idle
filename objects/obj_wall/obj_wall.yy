@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_throne_back",
+  "%Name":"obj_wall",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_throne_back",
+  "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"throne arrows",
-    "path":"folders/Objects/Decor/Decor UI/throne arrows.yy",
+    "name":"Decor",
+    "path":"folders/Objects/Decor.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_arrow_small",
-    "path":"sprites/spr_arrow_small/spr_arrow_small.yy",
+    "name":"spr_wall",
+    "path":"sprites/spr_wall/spr_wall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

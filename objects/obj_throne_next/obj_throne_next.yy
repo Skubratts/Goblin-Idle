@@ -9,8 +9,8 @@
   "name":"obj_throne_next",
   "overriddenProperties":[],
   "parent":{
-    "name":"Decor UI",
-    "path":"folders/Objects/Decor/Decor UI.yy",
+    "name":"throne arrows",
+    "path":"folders/Objects/Decor/Decor UI/throne arrows.yy",
   },
   "parentObjectId":null,
   "persistent":false,
