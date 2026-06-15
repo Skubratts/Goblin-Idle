@@ -1,9 +1,9 @@
 
-if global.misc < 1{
+if global.misc < 3{
 	global.misc += 1;
 }
 
-else if global.misc == 1{
+else if global.misc == 3{
 	
 	global.misc = 0
 	

@@ -53,6 +53,22 @@ if(instance_exists(obj_f_back)) {
 }
 
 
+if (!instance_exists(obj_m_next)) {
+    instance_create_layer(1159, 621, "Menu_layer", obj_m_next);
+}
+else
+if(instance_exists(obj_m_next)) {
+	instance_destroy(obj_m_next)
+}
+
+if (!instance_exists(obj_m_back)) {
+    instance_create_layer(1056, 621, "Menu_layer", obj_m_back);
+}
+else
+if(instance_exists(obj_m_back)) {
+	instance_destroy(obj_m_back)
+}
+
 
 //make catalogue
 //has to be last for arrows to show
