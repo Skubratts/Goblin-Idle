@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_w_next",
+  "%Name":"obj_m_next",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_w_next",
+  "name":"obj_m_next",
   "overriddenProperties":[],
   "parent":{
-    "name":"wall arrow",
-    "path":"folders/Objects/Decor/Decor UI/menu arrows/wall arrow.yy",
+    "name":"Misc arrows",
+    "path":"folders/Objects/Decor/Decor UI/menu arrows/Misc arrows.yy",
   },
   "parentObjectId":null,
   "persistent":false,

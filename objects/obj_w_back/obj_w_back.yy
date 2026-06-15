@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"wall arrow",
-    "path":"folders/Objects/Decor/Decor UI/wall arrow.yy",
+    "path":"folders/Objects/Decor/Decor UI/menu arrows/wall arrow.yy",
   },
   "parentObjectId":null,
   "persistent":false,

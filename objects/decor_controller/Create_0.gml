@@ -7,3 +7,5 @@ global.throne_lvl = 0;
 global.wall = 0;
 
 global.floor = 0;
+
+global.misc = 0;

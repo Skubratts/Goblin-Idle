@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"floor arrows",
-    "path":"folders/Objects/Decor/Decor UI/floor arrows.yy",
+    "path":"folders/Objects/Decor/Decor UI/menu arrows/floor arrows.yy",
   },
   "parentObjectId":null,
   "persistent":false,

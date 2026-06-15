@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"throne arrows",
-    "path":"folders/Objects/Decor/Decor UI/throne arrows.yy",
+    "path":"folders/Objects/Decor/Decor UI/menu arrows/throne arrows.yy",
   },
   "parentObjectId":null,
   "persistent":false,
