@@ -36,6 +36,22 @@ if(instance_exists(obj_w_back)) {
 }
 
 
+if (!instance_exists(obj_f_next)) {
+    instance_create_layer(1159, 435, "Menu_layer", obj_f_next);
+}
+else
+if(instance_exists(obj_f_next)) {
+	instance_destroy(obj_f_next)
+}
+
+if (!instance_exists(obj_f_back)) {
+    instance_create_layer(1056, 435, "Menu_layer", obj_f_back);
+}
+else
+if(instance_exists(obj_f_back)) {
+	instance_destroy(obj_f_back)
+}
+
 
 
 //make catalogue
