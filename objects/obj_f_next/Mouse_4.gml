@@ -1,9 +1,9 @@
 
-if global.floor < 5{
+if global.floor < 7{
 	global.floor += 1;
 }
 
-else if global.floor == 5{
+else if global.floor == 7{
 	
 	global.floor = 0
 	
