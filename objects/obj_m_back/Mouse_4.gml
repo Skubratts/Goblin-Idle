@@ -8,6 +8,6 @@ if global.misc >= 1{
 
 else if global.misc == 0 {
 	
-	global.misc = 6;	
+	global.misc = 7;	
 	
 }

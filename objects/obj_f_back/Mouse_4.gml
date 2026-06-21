@@ -9,6 +9,6 @@ if global.floor >= 1{
 else if global.floor == 0 {
 	
 	//this is the last frame
-	global.floor = 7;	
+	global.floor = 9;	
 	
 }
