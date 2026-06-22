@@ -12,7 +12,7 @@ if(global.gob_coins >= upgrade_cost) {
 	
 	global.gob_coins -= upgrade_cost;
 	
-	upgrade_cost *= 10;
+	upgrade_cost *= 4;
 	
 	//if statements for unlocking furniture here
 	//if global.wall   global.gob_throne 
