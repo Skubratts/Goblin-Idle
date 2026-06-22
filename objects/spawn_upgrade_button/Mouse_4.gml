@@ -5,18 +5,27 @@ if(global.gob_coins >= upgrade_cost) {
 
 	global.gob_spawn_upgrade += 1;
 	
-	//not sure why this isnt its own button
-	global.gob_kill_gain += 0.5;
-	
-	upgrade_level += 1;
 	
 	global.gob_coins -= upgrade_cost;
 	
-	upgrade_cost *= 4;
+	if upgrade_level == 0 {
+		global.gob_kill_gain += 0.1;
+	}
+	else if upgrade_level >= 1 {
+		global.gob_kill_gain += (0.1 * upgrade_level);
+	}
+	
+	if upgrade_level == 0 {
+		upgrade_cost += 0.5;
+	}
+	else if upgrade_level >= 1 {
+		upgrade_cost += (1 * upgrade_level)
+	}
+	
+	upgrade_level += 1;
+	
 	
 	//if statements for unlocking furniture here
-	//if global.wall   global.gob_throne 
-	
-	
+	//if global.wall   global.gob_throne 	
 	
 }

@@ -10,8 +10,8 @@
   "name":"obj_misc",
   "overriddenProperties":[],
   "parent":{
-    "name":"Decor",
-    "path":"folders/Objects/Decor.yy",
+    "name":"Decor Objects",
+    "path":"folders/Objects/Decor/Decor Objects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

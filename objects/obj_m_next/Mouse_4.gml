@@ -1,9 +1,9 @@
 
-if global.misc < 7{
+if global.misc < 10{
 	global.misc += 1;
 }
 
-else if global.misc == 7{
+else if global.misc == 10{
 	
 	global.misc = 0
 	

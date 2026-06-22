@@ -15,7 +15,7 @@ global.gob_spawn_limit = 5
 global.gob_spawn_upgrade = 1
 	//this should be tied together, as the goblin tier levels up so does their value on death
 	//amount made on goblin death
-	global.gob_kill_gain = 1
+	global.gob_kill_gain = 0.1
 
 //controller alarm [0] speed
 global.gob_spawn_speed = 300

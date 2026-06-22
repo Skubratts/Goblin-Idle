@@ -3,6 +3,7 @@
 // Track previous mouse position every frame
 prev_mouse_x = mouse_x;
 
+image_index = global.king_frame
 // Apply horizontal momentum after release
 if (!dragging && !wander) {
     x += hspeed;

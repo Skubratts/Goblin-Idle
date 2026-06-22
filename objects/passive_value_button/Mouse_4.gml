@@ -2,8 +2,14 @@
 // You can write your code in this editor
 
 if(global.gob_coins >= upgrade_cost) {
-
-	global.gob_passive_value += 0.01;
+	
+	if upgrade_level == 0 {
+		global.gob_passive_value += 0.01;
+	}
+	
+	else if upgrade_level >= 1 {
+		global.gob_passive_value += (0.01 * upgrade_level)
+	}
 
 	upgrade_level += 1;
 	

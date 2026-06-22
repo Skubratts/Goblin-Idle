@@ -9,7 +9,7 @@ if(global.gob_coins >= upgrade_cost) {
 	
 	global.gob_coins -= upgrade_cost;
 	
-	upgrade_cost *= 7;
+	upgrade_cost *= 2;
 	//upgrade cost subject to change
 
 }

@@ -2,14 +2,20 @@
 // You can write your code in this editor
 
 if(global.gob_coins >= upgrade_cost) {
-
-	global.gob_passive_speed -= 6;
-
+	
+	if upgrade_level = 0 {
+		global.gob_passive_speed -= 6;
+	}
+	
+	else if upgrade_level >= 1 {
+		global.gob_passive_speed -= (6 + upgrade_level)
+	}
+	
 	upgrade_level += 1;
 	
 	global.gob_coins -= upgrade_cost;
 	
-	upgrade_cost *= 7;
+	upgrade_cost *= 2;
 	//upgrade cost subject to change
 
 }
