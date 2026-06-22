@@ -20,3 +20,4 @@ if(global.gob_coins >= upgrade_cost) {
 
 }
 
+else audio_play_sound(err, 10, false);

@@ -5,6 +5,7 @@ if(global.gob_coins >= upgrade_cost) {
 	
 	if upgrade_level = 0 {
 		global.gob_passive_speed -= 6;
+		//this is removing 6 frames from spawn speed, so 0.1 second
 	}
 	
 	else if upgrade_level >= 1 {
@@ -20,4 +21,4 @@ if(global.gob_coins >= upgrade_cost) {
 
 }
 
-//increases the speed the passive value is generated at by 0.1 seconds
+else audio_play_sound(err, 10, false);

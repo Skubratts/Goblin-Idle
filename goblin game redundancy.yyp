@@ -106,6 +106,7 @@
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"script1","path":"scripts/script1/script1.yy",},},
     {"id":{"name":"Boop","path":"sounds/Boop/Boop.yy",},},
+    {"id":{"name":"err","path":"sounds/err/err.yy",},},
     {"id":{"name":"pageturn","path":"sounds/pageturn/pageturn.yy",},},
     {"id":{"name":"splash","path":"sounds/splash/splash.yy",},},
     {"id":{"name":"splash2","path":"sounds/splash2/splash2.yy",},},

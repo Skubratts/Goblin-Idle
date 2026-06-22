@@ -2,9 +2,15 @@
 // You can write your code in this editor
 if(global.gob_coins >= upgrade_cost) {
 
-	global.gob_spawn_speed -= 3;
+	if upgrade_level = 0 {
+		global.gob_spawn_speed -= 3;
+		//this is removing 6 frames from spawn speed, so 0.1 second
+	}
 	
-
+	else if upgrade_level >= 1 {
+		global.gob_spawn_speed -= (3 + upgrade_level)
+	}	
+	
 	upgrade_level += 1;
 	
 	global.gob_coins -= upgrade_cost;
@@ -14,4 +20,5 @@ if(global.gob_coins >= upgrade_cost) {
 
 }
 
-//this is removing 6 frames from spawn speed, so 0.1 second
+else audio_play_sound(err, 10, false);
+
