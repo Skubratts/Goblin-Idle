@@ -26,16 +26,13 @@ if(room = room1){
 		draw_color = make_color_rgb(200, 200, 200);
 	}
 
-// Draw the sprite
-	draw_sprite_ext(post_it, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
-
 // Set font
 	draw_set_font(Font_small);
 
 // Set color
 	draw_set_color(c_black); 
 
-	draw_text(x + 35,y + 15,"Earn Speed")
+	draw_text(x + 35,y + 15,"Earn Value")
 	
 	draw_set_color(c_yellow);  
 	

@@ -8,9 +8,6 @@ if(room = room1){
 	var draw_scale = is_hovered ? 0.7 : 0.7;
 	var draw_color = is_hovered ? make_color_rgb(200, 200, 200) : c_white;
 
-// Draw the sprite
-	draw_sprite_ext(post_it, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
-
 // Default scale and color
 	var draw_scale = 0.7;
 	var draw_color = c_white;
