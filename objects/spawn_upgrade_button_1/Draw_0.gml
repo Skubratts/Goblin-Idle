@@ -1,43 +1,48 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(room = room1){
+
+if(room == upgrade_menu){
 	// Check hover again
 	var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width, y - sprite_height, x + sprite_width, y + sprite_height);
 
 // Set visual properties instantly
-	var draw_scale = is_hovered ? 0.7 : 0.7;
+	var draw_scale = is_hovered ? 0.1 : 0.1;
 	var draw_color = is_hovered ? make_color_rgb(200, 200, 200) : c_white;
 
 // Draw the sprite
-	draw_sprite_ext(post_it, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
+	draw_sprite_ext(button_placeholder, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
 
 // Default scale and color
-	var draw_scale = 0.7;
+	var draw_scale = 0.1;
 	var draw_color = c_white;
 
 	if (click_timer > 0) {
     // If clicked, show normal state
-		draw_scale = 0.7
+		draw_scale = 0.1;
 		draw_color = c_white;
 	}
 	else if (is_hovered) {
     // Hover effect
-		draw_scale = 0.7;
+		draw_scale = 0.1;
 		draw_color = make_color_rgb(200, 200, 200);
 	}
 
 // Draw the sprite
-	draw_sprite_ext(post_it, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
+	draw_sprite_ext(button_placeholder, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
 
 // Set font
 	draw_set_font(Font_small);
 
+//draw upgrade cost
+
 // Set color
 	draw_set_color(c_black); 
 
-	draw_text(x + 35,y + 15,"Earn Speed")
+// Draw the count at a position on the screen
+
+	draw_text(x + 45,y + 15,"Gob Tier") 
 	
-	draw_set_color(c_yellow);  
+	draw_set_colour(c_yellow)
 	
 	draw_text( x, y + 15, upgrade_level)
 	
@@ -49,3 +54,13 @@ if(room = room1){
 	}
 	draw_text( x , y + 35, upgrade_cost)
 }
+
+if(room == upgrade_menu){
+	if global.gob_coins < upgrade_cost{
+		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,1470,824,0.8,0.8,0, c_black, 1 )
+	}
+	else if global.gob_coins >= upgrade_cost{
+		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,1470,824,0.8,0.8,0, draw_color, 1 )
+	}
+}
+

@@ -11,8 +11,8 @@
   "name":"passive_speed_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Upgrade menu",
-    "path":"folders/Objects/UI/Upgrade menu.yy",
+    "name":"Upgrade2",
+    "path":"folders/Objects/UI/Upgrade2.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"button_placeholder",
-    "path":"sprites/button_placeholder/button_placeholder.yy",
+    "name":"post_it",
+    "path":"sprites/post_it/post_it.yy",
   },
   "spriteMaskId":null,
   "visible":true,

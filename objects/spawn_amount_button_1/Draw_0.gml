@@ -1,33 +1,33 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(room = room1){
+if(room = upgrade_menu){
 	// Check hover again
 	var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width, y - sprite_height, x + sprite_width, y + sprite_height);
 
 // Set visual properties instantly
-	var draw_scale = is_hovered ? 0.7 : 0.7;
+	var draw_scale = is_hovered ? 0.1 : 0.1;
 	var draw_color = is_hovered ? make_color_rgb(200, 200, 200) : c_white;
 
 // Draw the sprite
-	draw_sprite_ext(post_it, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
+	draw_sprite_ext(button_placeholder, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
 
 // Default scale and color
-	var draw_scale = 0.7;
+	var draw_scale = 0.1;
 	var draw_color = c_white;
 
 	if (click_timer > 0) {
     // If clicked, show normal state
-		draw_scale = 0.7
+		draw_scale = 0.1;
 		draw_color = c_white;
 	}
 	else if (is_hovered) {
     // Hover effect
-		draw_scale = 0.7;
+		draw_scale = 0.1;
 		draw_color = make_color_rgb(200, 200, 200);
 	}
 
 // Draw the sprite
-	draw_sprite_ext(post_it, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
+	draw_sprite_ext(button_placeholder, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
 
 // Set font
 	draw_set_font(Font_small);
@@ -35,7 +35,9 @@ if(room = room1){
 // Set color
 	draw_set_color(c_black); 
 
-	draw_text(x + 35,y + 15,"Earn Speed")
+// Draw the count at a position on the screen
+
+	draw_text(x + 35,y + 15,"Spawn lvl")
 	
 	draw_set_color(c_yellow);  
 	
@@ -49,3 +51,8 @@ if(room = room1){
 	}
 	draw_text( x , y + 35, upgrade_cost)
 }
+var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width * 0.5, y - sprite_height * 0.5, x + sprite_width * 0.5, y + sprite_height * 0.5);
+
+var draw_color = is_hovered ? make_color_rgb(200, 200, 200) : c_white;
+
+

@@ -11,8 +11,8 @@
   "name":"upgrade_menu_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Upgrade menu",
-    "path":"folders/Objects/UI/Upgrade menu.yy",
+    "name":"Upgrade1",
+    "path":"folders/Objects/UI/Upgrade1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
