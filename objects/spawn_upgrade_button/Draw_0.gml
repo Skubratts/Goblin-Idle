@@ -49,10 +49,10 @@ if(room = room1){
 
 if(room == room1){
 	if global.gob_coins < upgrade_cost{
-		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,1470,824,0.8,0.8,0, c_black, 1 )
+		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,x,y,0.8,0.8,0, c_black, 1 )
 	}
 	else if global.gob_coins >= upgrade_cost{
-		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,1470,824,0.8,0.8,0, draw_color, 1 )
+		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,x,y,0.8,0.8,0, draw_color, 1 )
 	}
 }
 

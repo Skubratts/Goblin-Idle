@@ -1,16 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(room = room1){
+if(room == room1){
 	// Check hover again
-	var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width, y - sprite_height, x + sprite_width, y + sprite_height);
+	var is_hovered = position_meeting(mouse_x, mouse_y,passive_speed_button)
 
 // Set visual properties instantly
 	var draw_scale = is_hovered ? 0.7 : 0.7;
 	var draw_color = is_hovered ? make_color_rgb(200, 200, 200) : c_white;
 
-// Default scale and color
-	var draw_scale = 0.7;
-	var draw_color = c_white;
 
 	if (click_timer > 0) {
     // If clicked, show normal state

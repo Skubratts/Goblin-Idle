@@ -5,3 +5,6 @@ button_color = c_white;
 click_timer = 0;
 upgrade_level = 0
 upgrade_cost = 1
+
+offset_x = 1096
+offset_y = 264

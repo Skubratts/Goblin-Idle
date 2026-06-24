@@ -17,3 +17,25 @@ if (is_hovered && mouse_check_button_pressed(mb_left)) {
 if (click_timer > 0) {
     click_timer--;
 }
+
+if (moving) {
+    move_timer += 1;
+    var t = clamp(move_timer / move_duration, 0, 1);
+    var curve_value = animcurve_channel_evaluate(animcurve_get_channel(Dip, 0), t);
+    
+    if (Up_menu.up) {
+        // Moving from start to end
+        x = lerp(start_x, end_x, curve_value);
+        y = lerp(start_y, end_y, curve_value);
+    } else {
+        // Moving from end back to start
+        x = lerp(end_x, start_x, curve_value);
+        y = lerp(end_y, start_y, curve_value);
+    }
+    
+    if (move_timer >= move_duration) {
+        moving = false;
+        x = up ? end_x : start_x;
+        y = up ? end_y : start_y;
+    }
+}
