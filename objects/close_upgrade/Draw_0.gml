@@ -1,2 +1,2 @@
  
- draw_sprite_ext(spr_gob_button,0,x,y,1,1,0,c_white,1)
+ draw_sprite_ext(spr_down_arrow,0,x,y,.68,.68,0,c_white,1)

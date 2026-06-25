@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"small menu buttons",
-    "path":"folders/Sprites/UI/small menu buttons.yy",
+    "path":"folders/Sprites/small menu buttons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

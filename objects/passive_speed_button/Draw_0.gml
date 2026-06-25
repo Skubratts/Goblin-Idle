@@ -29,7 +29,7 @@ if(room == room1){
 // Set color
 	draw_set_color(c_black); 
 
-	draw_text(x + 35,y + 15,"Earn Speed")
+	draw_text(x - 64,y + 24,"Earn Speed")
 	
 	draw_set_color(c_yellow);  
 	

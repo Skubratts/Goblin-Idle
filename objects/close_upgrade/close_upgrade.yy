@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gob_button",
-    "path":"sprites/spr_gob_button/spr_gob_button.yy",
+    "name":"spr_down_arrow",
+    "path":"sprites/spr_down_arrow/spr_down_arrow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

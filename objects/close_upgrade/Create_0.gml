@@ -1,3 +1,3 @@
 
-offset_x = 140
-offset_y = 98
+offset_x = 144
+offset_y = 90
