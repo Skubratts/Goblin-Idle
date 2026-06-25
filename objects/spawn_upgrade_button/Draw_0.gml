@@ -11,10 +11,6 @@ if(room = room1){
 // Draw the sprite
 	draw_sprite_ext(post_it, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
 
-// Default scale and color
-	var draw_scale = 0.7;
-	var draw_color = c_white;
-
 	if (click_timer > 0) {
     // If clicked, show normal state
 		draw_scale = 0.7
