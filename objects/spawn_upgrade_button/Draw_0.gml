@@ -32,11 +32,11 @@ if(room = room1){
 // Set color
 	draw_set_color(c_black); 
 
-	draw_text(x + 35,y + 15,"Gob Level")
+	draw_text(x - 100,y - 78,"Gob Level")
 	
-	draw_set_color(c_yellow);  
+	draw_set_color(c_green);  
 	
-	draw_text( x, y + 15, upgrade_level)
+	draw_text( x + 85, y - 78, upgrade_level)
 	
 	if global.gob_coins < upgrade_cost{
 		draw_set_colour(c_red)
@@ -44,15 +44,15 @@ if(room = room1){
 	if global.gob_coins >= upgrade_cost{
 		draw_set_colour(c_ltgray)	
 	}
-	draw_text( x , y + 35, upgrade_cost)
+	draw_text( x + 50 , y + 50, upgrade_cost)
 }
 
 if(room == room1){
 	if global.gob_coins < upgrade_cost{
-		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,x,y,0.8,0.8,0, c_black, 1 )
+		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,x + 5 ,y + 80,0.8,0.8,0, c_black, 1 )
 	}
 	else if global.gob_coins >= upgrade_cost{
-		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,x,y,0.8,0.8,0, draw_color, 1 )
+		draw_sprite_ext(spr_goblist,global.gob_spawn_upgrade+1,x + 5 ,y + 80,0.8,0.8,0, c_white, 1 )
 	}
 }
 

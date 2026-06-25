@@ -28,11 +28,11 @@ if(room = room1){
 // Set color
 	draw_set_color(c_black); 
 
-	draw_text(x + 35,y + 15,"Earn Value")
+	draw_text(x - 100,y - 78,"Gob Wage")
 	
-	draw_set_color(c_yellow);  
+	draw_set_color(c_green);  
 	
-	draw_text( x, y + 15, upgrade_level)
+	draw_text( x + 87,  y - 78, upgrade_level)
 	
 	if global.gob_coins < upgrade_cost{
 		draw_set_colour(c_red)
