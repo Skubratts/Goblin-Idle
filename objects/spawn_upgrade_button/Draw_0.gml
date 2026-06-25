@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(room = room1){
 	// Check hover again
-	var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width, y - sprite_height, x + sprite_width, y + sprite_height);
+	var is_hovered = position_meeting(mouse_x, mouse_y,spawn_upgrade_button)
 
 // Set visual properties instantly
 	var draw_scale = is_hovered ? 0.7 : 0.7;

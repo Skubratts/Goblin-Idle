@@ -14,7 +14,6 @@
     {"name":"inst_3D7F2CA4","path":"rooms/pet_room/pet_room.yy",},
     {"name":"inst_D558B01","path":"rooms/pet_room/pet_room.yy",},
     {"name":"inst_95BD736","path":"rooms/pet_room/pet_room.yy",},
-    {"name":"inst_3E75F8D4","path":"rooms/pet_room/pet_room.yy",},
     {"name":"inst_32C11448","path":"rooms/pet_room/pet_room.yy",},
     {"name":"inst_C3F6F9C","path":"rooms/pet_room/pet_room.yy",},
     {"name":"inst_5E410F0A","path":"rooms/pet_room/pet_room.yy",},
@@ -27,7 +26,6 @@
       ],"depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"temp_for_placing_assets_on_menu","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Menu_layer","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_95BD736","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_95BD736","objectId":{"name":"decor_menu","path":"objects/decor_menu/decor_menu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1632.0,"y":64.0,},
-        {"$GMRInstance":"v4","%Name":"inst_3E75F8D4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E75F8D4","objectId":{"name":"Upgrade_exit","path":"objects/Upgrade_exit/Upgrade_exit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1792.0,"y":96.0,},
         {"$GMRInstance":"v4","%Name":"inst_32C11448","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32C11448","objectId":{"name":"decor_controller","path":"objects/decor_controller/decor_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Menu_layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"goblin_layer","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
