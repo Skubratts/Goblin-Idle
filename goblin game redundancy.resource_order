@@ -27,6 +27,7 @@
     {"name":"Backgrounds","order":2,"path":"folders/Sprites/Backgrounds.yy",},
     {"name":"Decor","order":5,"path":"folders/Sprites/Decor.yy",},
     {"name":"Effects","order":4,"path":"folders/Sprites/Effects.yy",},
+    {"name":"Food","order":7,"path":"folders/Sprites/Food.yy",},
     {"name":"small menu buttons","order":6,"path":"folders/Sprites/small menu buttons.yy",},
     {"name":"UI","order":3,"path":"folders/Sprites/UI.yy",},
     {"name":"decor UI","order":4,"path":"folders/Sprites/UI/decor UI.yy",},
