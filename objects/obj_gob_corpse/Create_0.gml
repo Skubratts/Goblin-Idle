@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
- depth = 2;
- global.gob_coins += global.gob_kill_gain;
- 
+
+depth = 2;
+
+fade_speed = random_range(0.015, 0.005);
+
+particle_amount = random_range(4, 7)

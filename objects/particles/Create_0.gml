@@ -12,5 +12,5 @@ image_yscale = 0.3;
 
 
 direction = irandom(359);
-speed = irandom(4);
-vspeed = 0
+speed = random_range(1, 3);
+

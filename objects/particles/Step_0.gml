@@ -7,7 +7,7 @@ y += lengthdir_y(speed, direction)
 		
 image_angle += 6;
 
-image_alpha -= 0.005;
+image_alpha -= 0.01;
 if (image_alpha <= 0) {
     instance_destroy();
 }
