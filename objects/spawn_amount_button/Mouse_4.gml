@@ -9,7 +9,12 @@ if(global.gob_coins >= upgrade_cost) {
 	
 	global.gob_coins -= upgrade_cost;
 	
-	upgrade_cost *= 5 ;
+	if upgrade_level >= 4{
+		upgrade_cost *= 5 ;
+	}
+	
+	else upgrade_cost *= (8)
+	
 	//upgrade cost subject to change
 	audio_play_sound(pageturn, 10, false);
 }
