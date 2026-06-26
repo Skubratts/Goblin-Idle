@@ -12,3 +12,4 @@ else if global.floor == 0 {
 	global.floor = 9;	
 	
 }
+audio_play_sound(pageturn, 10, false);

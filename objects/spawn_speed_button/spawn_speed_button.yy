@@ -11,8 +11,8 @@
   "name":"spawn_speed_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Upgrade2",
-    "path":"folders/Objects/UI/Upgrade2.yy",
+    "name":"Gob upgrades",
+    "path":"folders/Objects/UI/Gob upgrades.yy",
   },
   "parentObjectId":null,
   "persistent":true,

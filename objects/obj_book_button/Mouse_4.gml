@@ -25,3 +25,5 @@ else
 if(instance_exists(obj_open_book)) {
 	instance_destroy(obj_open_book)
 }
+
+audio_play_sound(pageturn, 10, false);

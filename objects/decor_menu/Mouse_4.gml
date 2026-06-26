@@ -85,3 +85,5 @@ if(instance_exists(obj_decor_book)) {
 	instance_destroy(obj_decor_book)
 	
 }
+
+audio_play_sound(pageturn, 10, false);

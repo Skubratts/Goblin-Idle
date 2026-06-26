@@ -18,6 +18,8 @@ if(global.gob_coins >= upgrade_cost) {
 	
 	upgrade_cost *= 2;
 	//upgrade cost subject to change
+	
+	audio_play_sound(pageturn, 10, false);
 
 }
 

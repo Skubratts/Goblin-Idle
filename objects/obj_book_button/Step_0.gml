@@ -14,7 +14,6 @@ if (is_hovered) {
 
 if (is_hovered && mouse_check_button_pressed(mb_left)) {
     click_timer = 8; // lasts 8 frames — tweak as needed
-	audio_play_sound(pageturn, 10, false);
 }
 
 // Decrease the timer

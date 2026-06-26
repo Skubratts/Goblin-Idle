@@ -10,3 +10,4 @@ else if global.gob_throne == 0 {
 	global.gob_throne = 9;	
 	
 }
+audio_play_sound(pageturn, 10, false);

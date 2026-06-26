@@ -27,7 +27,7 @@
     {"$GMFolder":"","%Name":"Spells","folderPath":"folders/Objects/Spells.yy","name":"Spells","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Gob Book","folderPath":"folders/Objects/UI/Gob Book.yy","name":"Gob Book","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Upgrade2","folderPath":"folders/Objects/UI/Upgrade2.yy","name":"Upgrade2","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Gob upgrades","folderPath":"folders/Objects/UI/Gob upgrades.yy","name":"Gob upgrades","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Virtual Pet Stats","folderPath":"folders/Objects/UI/Virtual Pet Stats.yy","name":"Virtual Pet Stats","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},

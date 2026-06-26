@@ -26,7 +26,7 @@ if(global.gob_coins >= upgrade_cost) {
 		
 	//if statements for unlocking furniture here
 	//if global.wall   global.gob_throne 	
-	
+	audio_play_sound(pageturn, 10, false);
 }
 
 else audio_play_sound(err, 10, false);
