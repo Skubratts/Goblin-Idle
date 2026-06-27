@@ -8,8 +8,9 @@ if room = room1{
 	}
 
 	// Check if mouse is over the button
-	var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width * 0.5, y - sprite_height * 0.5, x + sprite_width * 0.5, y + sprite_height * 0.5);
-
+	var is_hovered = point_in_rectangle(mouse_x, mouse_y, 
+    x - 120, y - 133, x + 120, y + 133);
+	
 	if (is_hovered) {
 	    scale = 0.95;
 	    button_color = make_color_rgb(200, 200, 200); // darker color

@@ -7,8 +7,9 @@ if room == room1 {
 	}
 
 	// Check if mouse is over the button
-	var is_hovered = position_meeting(mouse_x, mouse_y,spawn_limit_button)
-
+	var is_hovered = point_in_rectangle(mouse_x, mouse_y, 
+    x - 120, y - 133, x + 120, y + 133);
+	
 	if (is_hovered) {
 	    scale = 0.95;
 	    button_color = make_color_rgb(200, 200, 200); // darker color
