@@ -42,6 +42,6 @@ if(room = room1){
 	if global.gob_coins >= upgrade_cost{
 		draw_set_colour(c_ltgray)	
 	}
-	draw_text( x , y + 35, upgrade_cost)
+	draw_text( x - 20, y + 65, upgrade_cost)
 }
 

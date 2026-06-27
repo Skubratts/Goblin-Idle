@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"post_it",
-  "bboxMode":2,
+  "bboxMode":0,
   "bbox_bottom":410,
   "bbox_left":86,
   "bbox_right":407,
