@@ -24,3 +24,36 @@ last_x = x;
 last_y = y;
 prev_vspeed = 0;
 depth = 1
+
+// hunger bar
+hunger_max = 11
+hunger = 11
+hunger_drain_rate = 0.005; 
+
+if (hunger > 0) {
+	hunger -= hunger_drain_rate;}
+	else {hunger = 0;
+		//multiplier goes back to x1 maybe x.5? add code
+	}
+
+//filth bar
+filth_max = 11
+filth = 11
+filth_drain_rate = 0.008;
+
+if (filth > 0) {
+	filth -= filth_drain_rate;}
+	else {filth = 0;
+		//multiplier penalty
+	}
+	
+//mood bar
+mood_max = 11
+mood = 11
+mood_drain_rate = 0.007
+
+if (mood > 0) {
+	mood -= mood_drain_rate;}
+	else {mood = 0;
+		//penalty
+	}
