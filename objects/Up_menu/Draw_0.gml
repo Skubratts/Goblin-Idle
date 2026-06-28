@@ -19,12 +19,12 @@ if (up == false) && (moving == false){
 	}
 
 
-	draw_sprite_ext(Sprite28, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
+	draw_sprite_ext(upgrade_tab, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
 }
 
 else {
 	draw_scale = 1
 	draw_color = c_white;
 	
-	draw_sprite_ext(Sprite28, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
+	draw_sprite_ext(upgrade_tab, 0, x, y, draw_scale, draw_scale, 0, draw_color, 1);
 }

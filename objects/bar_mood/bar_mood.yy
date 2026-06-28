@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_stick_1",
-    "path":"sprites/Sprite_stick_1/Sprite_stick_1.yy",
+    "name":"stat_stick_3",
+    "path":"sprites/stat_stick_3/stat_stick_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

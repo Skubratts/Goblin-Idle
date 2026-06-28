@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite28",
-    "path":"sprites/Sprite28/Sprite28.yy",
+    "name":"upgrade_tab",
+    "path":"sprites/upgrade_tab/upgrade_tab.yy",
   },
   "spriteMaskId":null,
   "visible":true,
