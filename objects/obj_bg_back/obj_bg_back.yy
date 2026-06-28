@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"decor_controller",
+  "%Name":"obj_bg_back",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"decor_controller",
+  "name":"obj_bg_back",
   "overriddenProperties":[],
   "parent":{
-    "name":"Decor",
-    "path":"folders/Objects/Decor.yy",
+    "name":"BG arrows",
+    "path":"folders/Objects/Decor/Decor UI/menu arrows/BG arrows.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_arrow_small",
+    "path":"sprites/spr_arrow_small/spr_arrow_small.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
