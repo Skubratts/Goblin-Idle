@@ -6,5 +6,3 @@ button_color = c_white;
 click_timer = 0;
 depth = 50
 image_speed = 0;
-
-//gob throne number

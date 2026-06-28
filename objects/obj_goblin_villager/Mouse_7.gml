@@ -6,12 +6,12 @@ if (target != noone) {
 	global.king_frame = image_index 
     // spawns gob king
 		//should be conditional on there no being one already
-	if !instance_exists(obj_gob_king_throne) {
+	if !instance_exists(obj_gob_king) {
 		
-		instance_create_depth(1377,555,1,obj_gob_king_throne)
+		instance_create_depth(obj_gobthrone.x,obj_gobthrone.y,1,obj_gob_king)
 	}
 	else {
-		obj_gob_king_throne.image_index = global.king_frame
+		obj_gob_king.image_index = global.king_frame
     // e.g., target.receive_item(self);
 	}
 	instance_destroy()

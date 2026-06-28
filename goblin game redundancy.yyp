@@ -81,7 +81,7 @@
     {"id":{"name":"obj_f_next","path":"objects/obj_f_next/obj_f_next.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_gob_corpse","path":"objects/obj_gob_corpse/obj_gob_corpse.yy",},},
-    {"id":{"name":"obj_gob_king_throne","path":"objects/obj_gob_king_throne/obj_gob_king_throne.yy",},},
+    {"id":{"name":"obj_gob_king","path":"objects/obj_gob_king/obj_gob_king.yy",},},
     {"id":{"name":"obj_gob_pet","path":"objects/obj_gob_pet/obj_gob_pet.yy",},},
     {"id":{"name":"obj_goblin_villager","path":"objects/obj_goblin_villager/obj_goblin_villager.yy",},},
     {"id":{"name":"obj_gobthrone","path":"objects/obj_gobthrone/obj_gobthrone.yy",},},

@@ -5,9 +5,7 @@ var draw_scale = 1;
 var draw_color = c_white;
 var is_hovered = point_in_rectangle(mouse_x, mouse_y, x - sprite_width * 0.5, y - sprite_height * 0.5, x + sprite_width * 0.5, y + sprite_height * 0.5);
 
-// Set visual properties instantly
 
-var draw_color = is_hovered ? make_color_rgb(200, 200, 200) : c_white;
 
 // Draw the sprite
 draw_sprite_ext(spr_throne, global.gob_throne, x, y, draw_scale, draw_scale, 0, draw_color, 1);

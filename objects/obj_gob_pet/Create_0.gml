@@ -1,5 +1,6 @@
 image_speed = 0
 image_index = global.king_frame
+depth = 12
 
 //pasted move code
 direction = irandom(359);                    // initial direction
