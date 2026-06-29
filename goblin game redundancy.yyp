@@ -56,7 +56,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"goblin game redundancy",
   "resources":[
@@ -67,6 +67,7 @@
     {"id":{"name":"bar_hunger","path":"objects/bar_hunger/bar_hunger.yy",},},
     {"id":{"name":"bar_mood","path":"objects/bar_mood/bar_mood.yy",},},
     {"id":{"name":"button_fishing","path":"objects/button_fishing/button_fishing.yy",},},
+    {"id":{"name":"close_stats","path":"objects/close_stats/close_stats.yy",},},
     {"id":{"name":"close_upgrade","path":"objects/close_upgrade/close_upgrade.yy",},},
     {"id":{"name":"cursor","path":"objects/cursor/cursor.yy",},},
     {"id":{"name":"decor_controller","path":"objects/decor_controller/decor_controller.yy",},},
@@ -100,7 +101,6 @@
     {"id":{"name":"obj_w_back","path":"objects/obj_w_back/obj_w_back.yy",},},
     {"id":{"name":"obj_w_next","path":"objects/obj_w_next/obj_w_next.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
-    {"id":{"name":"Object47","path":"objects/Object47/Object47.yy",},},
     {"id":{"name":"particles","path":"objects/particles/particles.yy",},},
     {"id":{"name":"passive_speed_button","path":"objects/passive_speed_button/passive_speed_button.yy",},},
     {"id":{"name":"passive_value_button","path":"objects/passive_value_button/passive_value_button.yy",},},
@@ -108,6 +108,7 @@
     {"id":{"name":"spawn_limit_button","path":"objects/spawn_limit_button/spawn_limit_button.yy",},},
     {"id":{"name":"spawn_speed_button","path":"objects/spawn_speed_button/spawn_speed_button.yy",},},
     {"id":{"name":"spawn_upgrade_button","path":"objects/spawn_upgrade_button/spawn_upgrade_button.yy",},},
+    {"id":{"name":"stat_menu","path":"objects/stat_menu/stat_menu.yy",},},
     {"id":{"name":"toggle_killmode","path":"objects/toggle_killmode/toggle_killmode.yy",},},
     {"id":{"name":"Up_menu","path":"objects/Up_menu/Up_menu.yy",},},
     {"id":{"name":"fishing_game","path":"rooms/fishing_game/fishing_game.yy",},},

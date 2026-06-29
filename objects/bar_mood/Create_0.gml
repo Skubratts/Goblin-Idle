@@ -5,4 +5,5 @@ image_index =0
 //image index will equal to filth in draw event
 //do your magic to get the stat bar going!!!
 
-mood = 0
+offset_x = 250
+offset_y = 175

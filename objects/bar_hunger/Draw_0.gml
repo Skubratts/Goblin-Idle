@@ -7,4 +7,3 @@ if room = pet_room {
 	
 }
 
-image_index = hunger
