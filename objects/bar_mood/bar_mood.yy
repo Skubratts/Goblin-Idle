@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Virtual Pet Stats",
-    "path":"folders/Objects/UI/Virtual Pet Stats.yy",
+    "path":"folders/Objects/Virtual Pet Stats.yy",
   },
   "parentObjectId":null,
   "persistent":false,
