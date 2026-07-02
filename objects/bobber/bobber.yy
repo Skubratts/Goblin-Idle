@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Fishing",
+  "%Name":"bobber",
   "eventList":[],
   "managed":true,
-  "name":"Fishing",
+  "name":"bobber",
   "overriddenProperties":[],
   "parent":{
     "name":"Fishing",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_fishing_bar",
-    "path":"sprites/spr_fishing_bar/spr_fishing_bar.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
