@@ -1,5 +1,5 @@
 
-if bobber_position >= (y - 150) {
+if bobber_position >= (-150) {
 	bobber_position -= bobber_drop //not sure why this doesnt work
 }
 
