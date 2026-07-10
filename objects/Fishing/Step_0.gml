@@ -1,10 +1,18 @@
 
-if bobber_position >= (-150) {
-	bobber_position -= bobber_drop //not sure why this doesnt work
+bobber_position += bobber_drop //not sure why this doesnt work
+
+if bobber_position >= (150) {
+	bobber_position = 150
+	bobber_drop = 0
 }
 
-if bobber_drop >= -6 {
-	bobber_drop -= 0.1
+if (bobber_position <= -150) {
+    bobber_position = -150;
+    bobber_drop = 0;
+}
+
+if bobber_drop <= 6 {
+	bobber_drop += 0.1
 }
 
 
