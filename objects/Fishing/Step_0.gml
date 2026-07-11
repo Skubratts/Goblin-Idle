@@ -1,20 +1,23 @@
 
 bobber_position += bobber_drop //not sure why this doesnt work
 
-if bobber_position >= (150) {
-	bobber_position = 150
+if bobber_position >= (300) {
+	bobber_position = 300
 	bobber_drop = 0
 }
 
-if (bobber_position <= -150) {
-    bobber_position = -150;
+if (bobber_position <= -300) {
+    bobber_position = -300;
     bobber_drop = 0;
 }
 
-if bobber_drop <= 6 {
+if (!mouse_check_button(mb_left) && bobber_drop) <= 6 {
 	bobber_drop += 0.1
 }
 
+if (mouse_check_button(mb_left) && bobber_drop > -6) {
+    bobber_drop -= 0.1;
+}
 
 //bobber_position can have a range from 150 to -150
 
