@@ -11,11 +11,11 @@ if (bobber_position <= -300) {
     bobber_drop = 0;
 }
 
-if (!mouse_check_button(mb_left) && bobber_drop) <= 6 {
+if (!mouse_check_button(mb_left) && bobber_drop <= 6) {
 	bobber_drop += 0.1
 }
 
-if (mouse_check_button(mb_left) && bobber_drop > -6) {
+if (mouse_check_button(mb_left) && bobber_drop >= -6 ){
     bobber_drop -= 0.1;
 }
 
