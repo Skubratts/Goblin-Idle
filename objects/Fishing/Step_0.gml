@@ -1,6 +1,8 @@
 
 bobber_position += bobber_drop //not sure why this doesnt work
 
+bobber_height = 20
+
 if bobber_position >= (300) {
 	bobber_position = 300
 	bobber_drop = 0
@@ -19,6 +21,9 @@ if (mouse_check_button(mb_left) && bobber_drop >= -6 ){
     bobber_drop -= 0.1;
 }
 
-//bobber_position can have a range from 150 to -150
+//check if bobber over fish
 
-//bobber rise will be in left pressed
+collision_rectangle(1609,(y + bobber_position + bobber_height),1650,(y + bobber_position - bobber_height),fish,true,false)
+
+
+

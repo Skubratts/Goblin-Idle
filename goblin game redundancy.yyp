@@ -75,6 +75,7 @@
     {"id":{"name":"cursor","path":"objects/cursor/cursor.yy",},},
     {"id":{"name":"decor_controller","path":"objects/decor_controller/decor_controller.yy",},},
     {"id":{"name":"decor_menu","path":"objects/decor_menu/decor_menu.yy",},},
+    {"id":{"name":"fish","path":"objects/fish/fish.yy",},},
     {"id":{"name":"Fishing","path":"objects/Fishing/Fishing.yy",},},
     {"id":{"name":"go_home","path":"objects/go_home/go_home.yy",},},
     {"id":{"name":"gob_coin_counter","path":"objects/gob_coin_counter/gob_coin_counter.yy",},},

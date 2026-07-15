@@ -50,6 +50,7 @@
     {"name":"close_upgrade","order":6,"path":"objects/close_upgrade/close_upgrade.yy",},
     {"name":"cursor","order":4,"path":"objects/cursor/cursor.yy",},
     {"name":"decor_controller","order":5,"path":"objects/decor_controller/decor_controller.yy",},
+    {"name":"fish","order":2,"path":"objects/fish/fish.yy",},
     {"name":"go_home","order":8,"path":"objects/go_home/go_home.yy",},
     {"name":"obj_bg_next","order":1,"path":"objects/obj_bg_next/obj_bg_next.yy",},
     {"name":"obj_decor_book","order":1,"path":"objects/obj_decor_book/obj_decor_book.yy",},
