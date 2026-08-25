@@ -36,4 +36,3 @@ last_y = y;
 prev_vspeed = 0;
 depth = 1
 
-audio_play_sound(Boop,1,false)

@@ -28,4 +28,6 @@ for (var i = 0; i < global.gob_spawn_amount; i++) {
     ds_list_add(global.goblin_queue, new_goblin);
 }
 
+audio_play_sound(Boop,1,false)
+
 alarm[0] = global.gob_spawn_speed;
