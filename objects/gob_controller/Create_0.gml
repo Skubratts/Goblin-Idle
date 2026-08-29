@@ -12,6 +12,3 @@ ds_list_add(global.goblin_list, i);
 
 
 alarm[1] = 60;
-
-
-killmode = false
